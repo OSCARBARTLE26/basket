@@ -1,6 +1,6 @@
 // Basket service worker: lets the app open with no signal (handy in the shop).
 // App files come from the cache first; price data is fetched fresh when online.
-const VERSION = 'basket-v1';
+const VERSION = 'basket-v2';
 const SHELL = [
   './', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest',
   'data/ingredients.json', 'data/recipes.json', 'data/sample-prices.json', 'data/prices.json',

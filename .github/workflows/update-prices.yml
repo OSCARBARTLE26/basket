@@ -1,11 +1,19 @@
 name: Update prices
 
-# Runs once a month (05:17 UTC on the 1st) and whenever you press "Run workflow".
-# Each run costs about $2.10 of Apify credit, so the free $5 a month covers it.
+# Runs once a month (05:17 UTC on the 20th, just after your Apify credit resets)
+# and whenever you press "Run workflow".
+# A full run searches 130 ingredients and costs about $2.50-$3.25 of Apify credit,
+# capped at $4, so the free $5 a month covers it.
+# Tick "Only missing items" for a cheap top-up run (new recipes or gaps).
 on:
   schedule:
-    - cron: '17 5 1 * *'
+    - cron: '17 5 20 * *'
   workflow_dispatch:
+    inputs:
+      only_missing:
+        description: 'Only missing items (cheap top-up)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +36,7 @@ jobs:
       - name: Fetch supermarket prices
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          ONLY_MISSING: ${{ inputs.only_missing && '1' || '0' }}
         run: node scripts/fetch-prices.mjs
 
       - name: Save new prices

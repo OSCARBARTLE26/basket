@@ -12,7 +12,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 const ACTOR = 'griffie~uk-supermarket-prices';
 const STORES = ['tesco', 'asda', 'aldi', 'morrisons', 'waitrose'];
 const PRODUCTS_PER_SEARCH = 5;   // per supermarket, per ingredient
-const MAX_SPEND_USD = 2.5;       // hard cap for one run
+const MAX_SPEND_USD = 4;         // hard cap for one run (free Apify credit is $5 a month)
 const KEEP_PER_INGREDIENT = 6;   // products kept per store per ingredient
 const API = 'https://api.apify.com/v2';
 
@@ -75,8 +75,8 @@ export function parseQty(item, ing) {
     const weighed = parseWeight(size) || parseWeight(name);
     if (weighed) return weighed;
     if (LOOSE.test(name) || LOOSE.test(size)) return { q: 1, u: 'each' };
-    // No count anywhere: assume the usual pack (a bag of wraps isn't one wrap).
-    if (ing.sample?.[0] > 1) return { q: ing.sample[0], u: 'each' };
+    // No count anywhere: assume the usual pack (a bag of wraps isn't one wrap, a baguette is one).
+    return { q: ing.sample?.[0] || 1, u: 'each' };
   } else {
     const fromSize = parseText(item.size, false);
     if (fromSize) return fromSize;
@@ -236,7 +236,15 @@ async function main() {
     items = JSON.parse(await readFile(process.argv[fromIdx + 1], 'utf8'));
   } else {
     if (!process.env.APIFY_TOKEN) throw new Error('APIFY_TOKEN is not set. Add it as a repository secret.');
-    items = await runActor([...new Set(ingredients.map((i) => i.search))]);
+    // ONLY_MISSING=1 searches just the ingredients without a real price at every supermarket
+    // (new recipes, or gaps from last time). Much cheaper than a full update.
+    let wanted = ingredients;
+    if (process.env.ONLY_MISSING === '1' && previous && !previous.sample) {
+      wanted = ingredients.filter((i) => STORES.some((s) => !previous.stores?.[s]?.[i.key]?.length));
+      console.log(`Only fetching ${wanted.length} ingredients that are missing somewhere.`);
+      if (!wanted.length) { console.log('Nothing missing.'); return; }
+    }
+    items = await runActor([...new Set(wanted.map((i) => i.search))]);
   }
 
   const prices = buildPrices(items, ingredients, previous);
