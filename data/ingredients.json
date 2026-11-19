@@ -329,8 +329,9 @@
 "sliced in",
 "chestnut",
 "noodle",
-"cup",
-"flavour"
+"flavour",
+"cup noodles",
+"pot noodle"
 ],
 "avoid": [
 "mushrooms"
@@ -4091,7 +4092,9 @@
 "zest",
 "jelly",
 "limescale",
-"sublime"
+"sublime",
+"rice",
+"coriander"
 ],
 "avoid": [],
 "sample": [
@@ -4614,7 +4617,11 @@
 "crinkle",
 "nuts",
 "pudding",
-"sponge"
+"sponge",
+"milder",
+"crushed",
+"apple",
+"daily dose"
 ],
 "avoid": [],
 "sample": [
@@ -4847,7 +4854,11 @@
 "pakora",
 "bhaji",
 "biryani",
-"brownie"
+"brownie",
+"treats",
+"duck",
+"dog",
+"pet"
 ],
 "avoid": [],
 "sample": [
@@ -5762,7 +5773,8 @@
 "dhal",
 "imam",
 "melanzane",
-"caponata"
+"caponata",
+"pasta"
 ],
 "avoid": [],
 "sample": [
@@ -5898,7 +5910,12 @@
 "mini",
 "tart",
 "quiche",
-"pesto"
+"pesto",
+"hipp",
+"penne",
+"tomato",
+"mths",
+"baby food"
 ],
 "avoid": [],
 "sample": [
