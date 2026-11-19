@@ -106,11 +106,15 @@ export function toIngredientUnit(ing, parsed) {
 }
 
 const money = (x) => Math.round(Number(x) * 100) / 100;
+export let rejected = {};
 
 export function buildPrices(items, ingredients, previous) {
   const byTerm = new Map(ingredients.map((i) => [norm(i.search), i]));
   const stores = Object.fromEntries(STORES.map((s) => [s, {}]));
   const seen = Object.fromEntries(STORES.map((s) => [s, 0]));
+  // Products that came back but were turned down, saved so the matching rules can be tuned.
+  rejected = {};
+  const reject = (key, store, name, why) => { const k = `${key} @ ${store}`; (rejected[k] ||= []).length < 8 && rejected[k].push(`${why}: ${name}`); };
 
   for (const it of items) {
     if (it.recordType && it.recordType !== 'product') continue;
@@ -122,9 +126,9 @@ export function buildPrices(items, ingredients, previous) {
     if (it.available === false) continue;
     const price = Number(it.price);
     if (!(price > 0)) continue;
-    if (!matches(ing, it.name)) continue;
+    if (!matches(ing, it.name)) { reject(ing.key, store, it.name, 'name'); continue; }
     const q = toIngredientUnit(ing, parseQty(it, ing));
-    if (!q || q > 20000) continue;
+    if (!q || q > 20000) { reject(ing.key, store, it.name, 'size'); continue; }
     const lp = Number(it.loyaltyPrice) > 0 && Number(it.loyaltyPrice) < price ? money(it.loyaltyPrice) : null;
     (stores[store][ing.key] ||= []).push({ n: String(it.name).trim(), p: money(price), lp, q: Math.round(q * 10) / 10, url: it.url || null });
   }
@@ -251,6 +255,9 @@ async function main() {
   const found = Object.values(prices.status).reduce((n, s) => n + s.ingredients, 0);
   if (found === 0) throw new Error('No usable prices came back, so prices.json was left as it was.');
   await writeFile(pathOf('data/prices.json'), JSON.stringify(prices));
+  // Only keep rejections for ingredients that ended up with no real price at that store.
+  const missing = Object.fromEntries(Object.entries(rejected).filter(([k]) => { const [key, store] = k.split(' @ '); return !prices.stores[store]?.[key]; }));
+  await writeFile(pathOf('data/unmatched.json'), JSON.stringify(missing, null, 1));
   for (const [s, st] of Object.entries(prices.status)) {
     console.log(`${s.padEnd(10)} ${String(st.ingredients).padStart(3)} of ${ingredients.length} ingredients priced${st.kept ? ' (kept last prices, nothing came back)' : ''}`);
   }
