@@ -20,6 +20,15 @@ const STYLES = [
 ];
 const CUPBOARD = ['beef-stock', 'chicken-stock', 'veg-stock', 'mixed-herbs', 'paprika', 'chilli-powder', 'cumin', 'curry-powder', 'garam-masala', 'oregano', 'plain-flour', 'soy-sauce', 'gravy-granules', 'tomato-puree', 'ketchup', 'mayonnaise', 'honey', 'rice', 'spaghetti', 'pasta'];
 const QUICK_ADD = ['Milk', 'Bread', 'Eggs', 'Butter', 'Bananas', 'Tea bags', 'Coffee', 'Squash', 'Toilet roll', 'Kitchen roll', 'Washing-up liquid', 'Bin bags', 'Crisps', 'Yogurts'];
+const REGULAR_GROUPS = [
+  ['Food basics', ['Milk', 'Bread', 'Eggs', 'Butter', 'Cheese', 'Yogurts', 'Cereal', 'Porridge oats', 'Bananas', 'Apples', 'Grapes', 'Oranges', 'Strawberries', 'Tomatoes', 'Cucumber', 'Salad bag', 'Potatoes', 'Onions', 'Jam', 'Peanut butter', 'Ham', 'Sliced chicken', 'Baked beans', 'Tinned soup', 'Pasta sauce', 'Frozen chips', 'Frozen veg', 'Pizza', 'Ice cream', 'Wraps', 'Crumpets', 'Bagels']],
+  ['Drinks', ['Tea bags', 'Coffee', 'Squash', 'Orange juice', 'Apple juice', 'Fizzy drinks', 'Sparkling water', 'Bottled water', 'Hot chocolate', 'Oat milk', 'Energy drinks']],
+  ['Snacks and lunchbox', ['Crisps', 'Biscuits', 'Chocolate', 'Cereal bars', 'Popcorn', 'Nuts', 'Rice cakes', 'Fruit pots', 'Cheese strings', 'Yogurt tubes', 'Sweets', 'Crackers']],
+  ['Cupboard top-ups', ['Sugar', 'Salt', 'Black pepper', 'Cooking oil', 'Olive oil', 'Ketchup', 'Brown sauce', 'Mayonnaise', 'Gravy granules', 'Stock cubes', 'Flour', 'Rice', 'Pasta', 'Noodles', 'Tinned tomatoes', 'Spices']],
+  ['Household', ['Toilet roll', 'Kitchen roll', 'Washing-up liquid', 'Dishwasher tablets', 'Laundry detergent', 'Fabric conditioner', 'Bin bags', 'Food bags', 'Cling film', 'Foil', 'Baking paper', 'Sponges', 'Bleach', 'Surface spray', 'Glass cleaner', 'Air freshener', 'Light bulbs', 'Batteries']],
+  ['Toiletries', ['Toothpaste', 'Toothbrushes', 'Shower gel', 'Shampoo', 'Conditioner', 'Deodorant', 'Hand soap', 'Tissues', 'Cotton pads', 'Razors', 'Sun cream', 'Plasters', 'Paracetamol']],
+  ['Baby and pets', ['Nappies', 'Baby wipes', 'Baby food', 'Dog food', 'Cat food', 'Pet treats', 'Cat litter']],
+];
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const NIGHT_LIMIT = { chicken: 3, beef: 3, pork: 3, fish: 2, lamb: 2, veg: 3 };
 const LUNCH_SPAN = [2, 2, 3];
@@ -818,10 +827,13 @@ function regularsView() {
     html: `
     <form class="group" data-form="add-regular"><div class="row add-row"><span class="plus">${icon('plus-sm')}</span><span class="field"><input id="add-regular" placeholder="Add a regular item" autocomplete="off" enterkeyhint="done" maxlength="60"></span></div></form>
     <div class="section-foot">Regular items go on your shopping list automatically every time you plan a new week.</div>
-    <div class="spacer"></div>
-    <div class="chips">${QUICK_ADD.filter((n) => !state.regulars.some((r) => r.toLowerCase() === n.toLowerCase())).map((n) => `<button class="chip add" data-action="quick-regular" data-value="${esc(n)}">${esc(n)}</button>`).join('')}</div>
-    ${state.regulars.length ? `<div class="section-label">Your regulars</div><div class="group">${state.regulars.map((n, i) => `<div class="row"><span class="row-main">${esc(n)}</span><button class="icon-btn" data-action="remove-regular" data-index="${i}" aria-label="Remove ${esc(n)}">${icon('x')}</button></div>`).join('')}</div>
-    <div class="spacer"></div><button class="btn btn-tinted btn-block" data-action="add-regulars">Add all to this week's list</button>` : ''}`,
+    ${state.regulars.length ? `<div class="section-label">Your regulars · ${state.regulars.length}</div><div class="group">${state.regulars.map((n, i) => `<div class="row"><span class="row-main">${esc(n)}</span><button class="icon-btn" data-action="remove-regular" data-index="${i}" aria-label="Remove ${esc(n)}">${icon('x')}</button></div>`).join('')}</div>
+    <div class="spacer"></div><button class="btn btn-tinted btn-block" data-action="add-regulars">Add all to this week's list</button>` : ''}
+    ${REGULAR_GROUPS.map(([title, items]) => {
+      const left = items.filter((n) => !state.regulars.some((r) => r.toLowerCase() === n.toLowerCase()));
+      return left.length ? `<div class="section-label">${esc(title)}</div><div class="chips wrap">${left.map((n) => `<button class="chip add" data-action="quick-regular" data-value="${esc(n)}">${esc(n)}</button>`).join('')}</div>` : '';
+    }).join('')}
+    <div class="section-foot" style="padding-top:14px">Tap an item to add it to your regulars. Tap the cross to remove one.</div>`,
     after: () => { if (state.focusAdd) { $('#add-regular')?.focus(); state.focusAdd = false; } },
   };
 }
@@ -1123,7 +1135,7 @@ const actions = {
   'quick-add': (el) => { if (addExtra(el.dataset.value)) { save('extras'); render(); toast(`${el.dataset.value} added`); } },
   'remove-extra': (el) => { state.extras = state.extras.filter((x) => x.id !== el.dataset.id); save('extras'); render(); },
   'add-regulars': () => { const n = addRegularsToList(); render(); toast(n ? `${n} regular item${n === 1 ? '' : 's'} added` : 'Your regulars are already on the list'); },
-  'quick-regular': (el) => { if (!state.regulars.some((r) => r.toLowerCase() === el.dataset.value.toLowerCase())) { state.regulars.push(el.dataset.value); save('regulars'); render(); } },
+  'quick-regular': (el) => { if (!state.regulars.some((r) => r.toLowerCase() === el.dataset.value.toLowerCase())) { state.regulars.push(el.dataset.value); save('regulars'); render(); toast(`${el.dataset.value} added`); } },
   'remove-regular': (el) => { state.regulars.splice(+el.dataset.index, 1); save('regulars'); render(); },
   cupboard: (el) => { toggleIn(state.cupboard, el.dataset.value); save('cupboard'); refresh(); },
   unhide: (el) => { state.hidden = state.hidden.filter((x) => x !== el.dataset.id); save('hidden'); if (!sheet.hidden) closeSheet(); render(); toast('Meal brought back'); },
