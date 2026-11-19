@@ -1,6 +1,8 @@
 # Basket
 
-A budget meal planner for UK supermarkets. Pick a supermarket, set a weekly budget, tick your appliances and say who's eating. Basket plans seven dinners and one shopping list, priced from that supermarket's real products, that fits the budget.
+A budget meal planner for UK supermarkets. Pick a supermarket, set a weekly budget, tick your appliances and say who's eating. Basket plans a week of dinners (plus breakfasts and lunches if you want them) and one shopping list, priced from that supermarket's real products, that fits the budget.
+
+Also: favourite meals, your own items and regular items on the list, a price check across all five supermarkets, a spending tracker, and a Today screen with tonight's meal and prep reminders.
 
 Supermarkets: Tesco, Asda, Aldi, Morrisons and Waitrose, with Clubcard, More Card and myWaitrose prices.
 
@@ -16,7 +18,7 @@ Supermarkets: Tesco, Asda, Aldi, Morrisons and Waitrose, with Clubcard, More Car
 ## How prices work
 
 - The **Update prices** workflow runs once a month on its own (the 20th, early morning, just after the Apify credit resets) and whenever you press **Run workflow**.
-- A full run searches 130 ingredients at 5 supermarkets, 5 products each, then keeps the best-value matches in `data/prices.json`. It costs about $2.50–$3.25 and is capped at $4, so the free $5 a month of Apify credit covers it.
+- A full run searches 137 ingredients at 5 supermarkets, 5 products each, then keeps the best-value matches in `data/prices.json`. It costs about $2.50–$3.25 and is capped at $4, so the free $5 a month of Apify credit covers it.
 - Tick **Only missing items** when you press Run workflow to fetch just the ingredients that don't have a real price yet. It's much cheaper and is handy after adding recipes.
 - Check your credit reset date in Apify (Billing). If it isn't around the 18th–19th, change the day in `.github/workflows/update-prices.yml` to the day after it resets.
 - If a supermarket blocks the search one month, Basket keeps that supermarket's last good prices.

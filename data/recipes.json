@@ -60,7 +60,8 @@
    "Brown the mince in a large pan with a splash of oil, breaking it up as it cooks. Add the onion, carrot and garlic and cook for 5 minutes until soft.",
    "Stir in the tomato purée, chopped tomatoes, herbs and crumbled stock cube with a splash of water. Simmer for 25–30 minutes until thick and rich.",
    "Cook the spaghetti for tonight's portions and serve with the sauce and grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chilli",
@@ -125,7 +126,8 @@
    "Stir in the chilli powder and cumin for a minute, then add the tomatoes, drained kidney beans and crumbled stock cube.",
    "Simmer for 30 minutes, stirring now and then. (Slow cooker: brown the mince first, then everything in on low for 6–8 hours.)",
    "Cook the rice for tonight's portions and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "fajitas",
@@ -176,7 +178,8 @@
    "Fry the chicken in a hot pan with a little oil for 5 minutes, then add the veg and cook for another 5 minutes.",
    "Sprinkle over the fajita seasoning with a splash of water and toss until everything is coated and the chicken is cooked through.",
    "Warm the wraps and fill with the chicken, a spoon of yogurt and some grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sausage-mash",
@@ -228,7 +231,8 @@
    "Peel and chop the potatoes, boil for 15–20 minutes until soft, then drain and mash with the butter and milk.",
    "Cook the peas for 3 minutes.",
    "Make the gravy with boiling water as the packet says, and serve everything together."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "tikka-masala",
@@ -281,7 +285,8 @@
    "Add the chicken and cook until sealed, then pour in the tomatoes and simmer for 20 minutes. (Slow cooker: everything except the cream on low for 5–6 hours.)",
    "Stir in the cream and warm through.",
    "Cook the rice for tonight's portions and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "shepherds-pie",
@@ -348,7 +353,8 @@
    "Stir in the tomato purée, crumbled stock cube and a splash of water. Simmer for 15 minutes, adding the peas at the end.",
    "Spoon the mince into an ovenproof dish, top with the mash and grated cheese, and bake at 200°C for 25 minutes until golden.",
    "Keep half back (in a second dish if you can) for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "cottage-pie",
@@ -415,7 +421,8 @@
    "Stir in the tomato purée, crumbled stock cube and a splash of water. Simmer for 15 minutes, adding the peas at the end.",
    "Spoon the mince into an ovenproof dish, top with the mash and grated cheese, and bake at 200°C for 25 minutes until golden.",
    "Keep half back (in a second dish if you can) for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "lasagne",
@@ -486,7 +493,8 @@
    "Layer meat sauce, lasagne sheets and white sauce in an ovenproof dish, finishing with white sauce and the rest of the cheese.",
    "Bake at 190°C for 35–40 minutes until golden and bubbling. Rest for 5 minutes before cutting.",
    "Cool and fridge half for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "beef-stew",
@@ -544,7 +552,8 @@
    "Put everything into the slow cooker (or a lidded casserole dish) with the tomato purée, herbs and stock cubes dissolved in enough boiling water to just cover.",
    "Slow cooker: 7–8 hours on low. Oven: 3 hours at 160°C with the lid on. Hob: simmer gently with the lid on for 2½ hours, stirring now and then.",
    "Season and serve with crusty bread if you like."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "pulled-pork",
@@ -593,7 +602,8 @@
    "Shred the pork with two forks and stir in the rest of the BBQ sauce and some of the cooking juices.",
    "For the slaw, grate the carrot and mix with the mayo and a pinch of salt and pepper.",
    "Pile the pork and slaw into buns. Keep half the pork for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sweet-chilli-noodles",
@@ -640,7 +650,8 @@
    "Slice the chicken into strips and stir-fry in a hot pan or wok with a little oil for 5–6 minutes until cooked through.",
    "Add the crushed garlic and the stir fry veg and cook for 3 minutes.",
    "Toss in the noodles, soy sauce and sweet chilli sauce until everything is glossy and hot."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "lemon-salmon",
@@ -687,7 +698,8 @@
    "Put the salmon on a lined tray, top each fillet with a little butter and a squeeze of lemon, and bake at 200°C for 12–15 minutes (air fryer: 180°C for 9–10 minutes).",
    "Boil or steam the green beans for 4 minutes.",
    "Toss the potatoes in the rest of the butter with salt and pepper, and serve with the salmon, beans and lemon wedges."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "fish-fingers",
@@ -726,7 +738,8 @@
    "Cook the chips and fish fingers in the oven or air fryer, following the packet times. Put the chips in first as they take longer.",
    "Cook the peas on the hob or in the microwave for 3 minutes.",
    "Serve with ketchup or a squeeze of lemon."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "cheeseburgers",
@@ -779,7 +792,8 @@
    "Mix the mince with the finely chopped onion, salt and pepper, and shape into burgers about 2cm thick.",
    "Fry, grill or air fry the burgers for 4–5 minutes each side until cooked through. Add a slice of cheese for the last minute.",
    "Toast the buns and build the burgers with shredded lettuce."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "creamy-mushroom-pasta",
@@ -830,7 +844,8 @@
    "Fry the sliced chicken in a large pan with a little oil for 5 minutes, then add the sliced mushrooms and garlic for another 4 minutes.",
    "Crumble in the stock cube with a splash of pasta water, then stir in the crème fraîche and spinach until wilted.",
    "Toss in the pasta, loosening with more pasta water if needed, and season well."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chorizo-traybake",
@@ -878,7 +893,8 @@
    "Toss everything with the paprika, a little oil, salt and pepper in a large roasting tin, sitting the chicken thighs skin side up on top.",
    "Roast for 40–45 minutes until the chicken is golden and cooked through (air fryer: 180°C for 25–30 minutes, in batches if needed).",
    "Spoon the red juices from the tin over everything to serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "tuna-pasta-bake",
@@ -926,7 +942,8 @@
    "Mix the pasta with the passata, drained tuna, drained sweetcorn and half the cheese. Season well.",
    "Tip into an ovenproof dish and scatter over the rest of the cheese.",
    "Bake at 200°C for 15 minutes, or grill for 5 minutes, until bubbling and golden."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "jacket-potatoes",
@@ -967,7 +984,8 @@
    "Microwave on high for 8–10 minutes, turning halfway, until soft. For crispy skins, finish in the oven or air fryer at 200°C for 10 minutes. (Oven only: 1 hour at 200°C.)",
    "Heat the beans in a pan or the microwave.",
    "Split the potatoes, add butter, then top with beans and grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "veggie-chilli",
@@ -1036,7 +1054,8 @@
    "Add the tomatoes, drained beans, chickpeas and sweetcorn, and the crumbled stock cube with a splash of water.",
    "Simmer for 25 minutes until thick. (Slow cooker: everything in on low for 6 hours.)",
    "Cook the rice for tonight's portions and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chickpea-curry",
@@ -1091,7 +1110,8 @@
    "Soften the chopped onion and garlic in a pan with a little oil for 5 minutes, then stir in the curry paste for a minute.",
    "Add the drained chickpeas, tomatoes and coconut milk and simmer for 15 minutes.",
    "Stir in the spinach until it wilts, season, and serve with the rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "dhal",
@@ -1147,7 +1167,8 @@
    "Add the rinsed lentils, tomatoes, coconut milk and about 200ml water per two portions.",
    "Simmer for 25 minutes, stirring often, until the lentils are soft and thick. Add a splash more water if it gets too dry. (Slow cooker: everything in on low for 5–6 hours.)",
    "Stir in the spinach, season, and serve with warm naan."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "mac-cheese",
@@ -1190,7 +1211,8 @@
    "Melt the butter in a pan, stir in the flour for a minute, then slowly whisk in the milk until thick and smooth.",
    "Take off the heat and stir in most of the cheese until melted. Season well.",
    "Stir in the pasta. For a crispy top, tip into a dish, add the last of the cheese and grill for 5 minutes."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "pesto-chicken-pasta",
@@ -1229,7 +1251,8 @@
    "Fry the sliced chicken in a little oil for 6–7 minutes until golden and cooked through.",
    "Add the halved tomatoes for 2 minutes until just softening.",
    "Toss in the pasta and pesto with a splash of pasta water until glossy."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "thai-red-curry",
@@ -1276,7 +1299,8 @@
    "Fry the curry paste in a little oil for a minute, then add the sliced chicken and cook for 5 minutes.",
    "Pour in the coconut milk and add the sliced pepper. Simmer for 10 minutes.",
    "Add the green beans for the last 4 minutes and serve with the rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "honey-garlic-chicken",
@@ -1324,7 +1348,8 @@
    "Fry the diced chicken in a little oil for 6–7 minutes until golden (air fryer: 190°C for 10–12 minutes).",
    "Pour the honey mix over the chicken and bubble for 2 minutes until sticky.",
    "Steam or boil the broccoli for 4 minutes and serve everything together."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "roast-chicken",
@@ -1371,7 +1396,8 @@
    "Peel and halve the potatoes, boil for 8 minutes, drain and shake to rough up the edges. Roast in a hot tray with oil for 45–50 minutes, turning once.",
    "Rest the chicken under foil for 15 minutes while you boil the carrots and broccoli.",
    "Make the gravy with boiling water as the packet says. Carve and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "halloumi-wraps",
@@ -1420,7 +1446,8 @@
    "Slice the halloumi and fry, grill or air fry for 2–3 minutes each side until golden.",
    "Warm the wraps.",
    "Fill with lettuce, the veg, halloumi and a spoon of yogurt."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "prawn-fried-rice",
@@ -1467,7 +1494,8 @@
    "Fry the prawns in a hot pan with a little oil for 2–3 minutes until pink, then set aside.",
    "Add the rice and peas to the pan and stir-fry for 4 minutes. Push to one side, crack in the eggs and scramble, then mix through.",
    "Add the prawns, soy sauce and sliced spring onions and toss until piping hot."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sausage-casserole",
@@ -1524,7 +1552,8 @@
    "Add the chopped onion and peppers and cook for 5 minutes, then stir in the paprika.",
    "Add the tomatoes, beans and crumbled stock cube with a splash of water. Simmer for 25 minutes. (Slow cooker or oven at 180°C: about 4 hours on low or 1 hour in the oven.)",
    "Boil the potatoes in chunks for 15–20 minutes, or mash them, and serve with the casserole."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "pork-steaks",
@@ -1571,7 +1600,8 @@
    "Season the pork and fry in a hot pan with a little oil for 4–5 minutes each side until cooked through. Rest for 2 minutes.",
    "Boil the sliced carrots for 8 minutes, adding the peas for the last 3.",
    "Make the gravy with boiling water as the packet says, and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "crispy-chicken-strips",
@@ -1627,7 +1657,8 @@
    "Cut the chicken into strips. Dip in flour, then beaten egg, then breadcrumbs.",
    "Bake the strips on an oiled tray for 18–20 minutes until golden and cooked through (air fryer: 190°C for 10–12 minutes).",
    "Heat the sweetcorn and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "steak-night",
@@ -1679,7 +1710,8 @@
    "Take the steaks out of the fridge 20 minutes before cooking. Season well and fry in a very hot pan for 2–4 minutes each side, depending on how you like it. Rest for 5 minutes.",
    "In the same pan, fry the sliced mushrooms and tomatoes with the butter and garlic for 4 minutes.",
    "Serve the steak with the chips and garlic mushrooms."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "baked-cod",
@@ -1730,7 +1762,8 @@
    "Sit the cod on a lined tray, top with a little butter, the herbs and a squeeze of lemon, and bake at 200°C for 12–15 minutes (air fryer: 180°C for 10 minutes).",
    "Boil or steam the green beans for 4 minutes.",
    "Toss the potatoes in the rest of the butter and serve with the fish and lemon wedges."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "bean-burritos",
@@ -1781,7 +1814,8 @@
    "Soften the chopped onion and pepper in a little oil for 6 minutes, then add the drained beans and fajita seasoning with a splash of water. Cook for 5 minutes, lightly mashing some of the beans.",
    "Stir in the rice.",
    "Warm the wraps, fill with the mix and grated cheese, and roll up. Toast seam side down in a dry pan for a crispy outside."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "spanish-chicken-rice",
@@ -1840,7 +1874,8 @@
    "Add the chopped onion and pepper and cook for 5 minutes, then stir in the paprika and rice.",
    "Add the tomatoes and the stock cubes dissolved in about 200ml boiling water per two portions. Cover and simmer for 18–20 minutes until the rice is tender.",
    "Stir in the peas for the last 3 minutes and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chicken-casserole",
@@ -1893,7 +1928,8 @@
    "Soften the chopped onion and carrot in the same pan for 5 minutes, then stir in the flour and herbs.",
    "Add the potatoes in chunks and the stock cubes dissolved in enough boiling water to almost cover. Return the chicken.",
    "Slow cooker: 6 hours on low. Oven: 1½ hours at 170°C with the lid on. Hob: simmer gently with the lid on for 1 hour."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "lamb-koftas",
@@ -1946,7 +1982,8 @@
    "Grill, air fry or fry for 10–12 minutes, turning, until browned and cooked through.",
    "Grate a little cucumber into the yogurt with a pinch of salt.",
    "Warm the pittas and fill with lettuce, koftas and the yogurt sauce."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "prawn-spaghetti",
@@ -1997,7 +2034,8 @@
    "Melt the butter with a little oil and fry the sliced garlic for 1 minute, then add the halved tomatoes for 3 minutes.",
    "Add the prawns and cook for 2–3 minutes until pink, then stir in the spinach.",
    "Toss in the spaghetti with a squeeze of lemon and a splash of pasta water."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "naan-pizzas",
@@ -2046,7 +2084,8 @@
    "Spread each naan with passata and sprinkle with the herbs.",
    "Top with torn mozzarella, sliced pepper and sweetcorn.",
    "Bake for 8–10 minutes until bubbling (air fryer: 180°C for 5–6 minutes, one at a time; grill: 4–5 minutes)."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sticky-beef-bowls",
@@ -2097,7 +2136,8 @@
    "Fry the mince in a hot pan until browned and crispy at the edges, then add the crushed garlic for a minute.",
    "Stir in the soy sauce and honey and bubble until sticky.",
    "Steam or boil the broccoli for 4 minutes. Serve the beef over rice with the broccoli and sliced spring onions."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "breakfast-for-dinner",
@@ -2145,7 +2185,8 @@
    "Fry the sliced mushrooms in a little oil for 4 minutes.",
    "Heat the beans and make the toast.",
    "Fry the eggs and serve everything together."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "bacon-carbonara",
@@ -2188,7 +2229,8 @@
    "Fry the chopped bacon until crispy.",
    "Beat the eggs with most of the grated cheese and plenty of black pepper.",
    "Take the pan off the heat, toss the spaghetti and peas with the bacon, then quickly stir in the egg mix with a splash of pasta water until creamy (not scrambled). Top with the rest of the cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "toad-in-the-hole",
@@ -2239,7 +2281,8 @@
    "Whisk the flour, eggs, milk and a pinch of salt into a smooth batter.",
    "Carefully pour the batter around the sausages in the hot tin and bake for 25–30 minutes until risen and golden. Don't open the oven door early.",
    "Cook the peas, make the gravy as the packet says, and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "enchiladas",
@@ -2293,7 +2336,8 @@
    "Fill the wraps with the mix, roll them up and pack them seam side down into an ovenproof dish.",
    "Pour over the rest of the passata and scatter with the cheese.",
    "Bake at 200°C for 20 minutes until bubbling. Keep half back for the leftovers night, or assemble a second dish and fridge it to bake fresh."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "gnocchi-bake",
@@ -2345,7 +2389,8 @@
    "Stir in the gnocchi and spinach and cook for 3–4 minutes until the gnocchi are soft.",
    "Tip into an ovenproof dish and top with torn mozzarella.",
    "Bake at 200°C for 10–12 minutes, or grill for 5 minutes, until golden and bubbling."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sweet-sour-chicken",
@@ -2400,7 +2445,8 @@
    "Fry the diced chicken in a hot pan with a little oil for 6 minutes until golden.",
    "Add the chopped pepper and onion and cook for 3 minutes.",
    "Stir in the ketchup, soy sauce, honey and 3 tbsp of the pineapple juice per two people, then add the pineapple and bubble for 2–3 minutes until glossy. Serve with the rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "satay-chicken-noodles",
@@ -2451,7 +2497,8 @@
    "Whisk the peanut butter, soy sauce, honey and lime juice with a splash of hot water until smooth.",
    "Stir-fry the sliced chicken in a hot pan for 6 minutes, then add the veg for 3 minutes.",
    "Toss in the noodles and satay sauce until everything is coated and hot."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "jerk-chicken",
@@ -2506,7 +2553,8 @@
    "Roast at 200°C for 40 minutes, turning once, until cooked through and charred (air fryer: 190°C for 22–25 minutes).",
    "Meanwhile, simmer the rice in the coconut milk topped up with water (about 150ml per portion) for 12 minutes, then stir in the drained kidney beans and cook until the rice is tender.",
    "Scatter over the sliced spring onions and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "cajun-chicken",
@@ -2550,7 +2598,8 @@
    "Rub the chicken with oil and the rest of the seasoning, add it to the tray and roast for 18–20 minutes more until cooked through.",
    "Warm the sweetcorn.",
    "Slice the chicken and serve with the potatoes, corn and a spoon of soured cream."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chicken-korma",
@@ -2602,7 +2651,8 @@
    "Add the diced chicken and cook until sealed.",
    "Pour in the coconut milk and simmer for 20 minutes until the chicken is tender. (Slow cooker: low for 5–6 hours.)",
    "Take off the heat and stir in the yogurt. Cook the rice for tonight's portions and serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chicken-leek-pie",
@@ -2656,7 +2706,8 @@
    "Stir in the flour, then the crumbled stock cube with a splash of water, and simmer for 10 minutes. Stir in the crème fraîche.",
    "Tip into a pie dish, top with the pastry, trim, cut a slit in the top and bake at 200°C for 25–30 minutes until puffed and golden.",
    "Serve with peas. For the leftovers night, make two smaller pies and fridge one to bake fresh."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "bbq-drumsticks",
@@ -2700,7 +2751,8 @@
    "Roast the drumsticks for 25 minutes, then brush with BBQ sauce and roast for 15 minutes more until sticky and cooked through (air fryer: 190°C for 22–25 minutes in total).",
    "Heat the sweetcorn.",
    "Serve everything with extra BBQ sauce."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "hoisin-chicken",
@@ -2743,7 +2795,8 @@
    "Stir-fry the sliced chicken in a hot pan with a little oil for 6 minutes.",
    "Add the grated ginger and the veg and cook for 3 minutes.",
    "Toss in the noodles and hoisin sauce with a splash of water until glossy."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "greek-chicken",
@@ -2801,7 +2854,8 @@
    "Pour boiling water over the couscous (just enough to cover), cover and leave for 5 minutes, then fluff with a fork.",
    "Stir the chopped tomatoes and cucumber through the couscous.",
    "Slice the chicken, serve on the couscous and crumble over the feta."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "turkey-burgers",
@@ -2854,7 +2908,8 @@
    "Season the mince well and shape into burgers.",
    "Fry, grill or air fry for 5–6 minutes each side until cooked right through.",
    "Serve in toasted buns with lettuce and mayo."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "meatball-subs",
@@ -2902,7 +2957,8 @@
    "Add the passata and herbs and simmer for 10 minutes until the meatballs are cooked through.",
    "Split the baguette pieces, fill with meatballs and sauce, and top with torn mozzarella.",
    "Grill or bake at 200°C for 5 minutes until the cheese melts."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "spaghetti-meatballs",
@@ -2949,7 +3005,8 @@
    "Pour in the passata with the herbs and simmer for 12–15 minutes until the meatballs are cooked through.",
    "Cook the spaghetti as the packet says.",
    "Toss the spaghetti in the sauce and top with grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "beef-tacos",
@@ -3005,7 +3062,8 @@
    "Warm the taco shells as the packet says.",
    "Shred the lettuce and grate the cheese.",
    "Fill the shells with beef, lettuce, cheese, salsa and soured cream."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "nachos",
@@ -3061,7 +3119,8 @@
    "Spread the tortilla chips over a large ovenproof dish or tray.",
    "Spoon over the beef and salsa, then scatter with grated cheese.",
    "Bake at 200°C or grill for 5–8 minutes until the cheese melts. Top with soured cream and serve straight away."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "beef-broccoli",
@@ -3112,7 +3171,8 @@
    "Mix the soy sauce, honey, grated ginger and crushed garlic.",
    "Stir-fry the beef in a very hot pan for 2 minutes, then take it out.",
    "Stir-fry the broccoli with a splash of water for 3 minutes, return the beef with the sauce and toss for a minute until glossy."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "goulash",
@@ -3169,7 +3229,8 @@
    "Stir in the paprika, then the tomatoes and the stock cube dissolved in about 150ml boiling water per two portions.",
    "Slow cooker: low for 7–8 hours. Oven: 2½ hours at 160°C with the lid on. Hob: simmer gently with the lid on for 2 hours.",
    "Boil the potatoes for tonight and serve with a spoon of soured cream."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "stuffed-peppers",
@@ -3220,7 +3281,8 @@
    "Brown the mince with the cumin, then stir in the tomatoes and rice and simmer for 5 minutes.",
    "Fill the pepper halves, sit them in a dish and top with grated cheese.",
    "Bake at 190°C for 25 minutes until the peppers are soft (air fryer: 180°C for 15 minutes)."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "pork-noodles",
@@ -3271,7 +3333,8 @@
    "Fry the mince in a hot pan until browned and crispy at the edges.",
    "Add the crushed garlic and grated ginger for a minute, then the hoisin and soy sauce.",
    "Toss in the noodles and top with sliced spring onions."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "gammon-egg-chips",
@@ -3316,7 +3379,8 @@
    "Snip the fat on the gammon every few centimetres so it stays flat, then grill or fry for 4–5 minutes each side until cooked through.",
    "Cook the peas for 3 minutes.",
    "Fry the eggs and serve on top of the gammon."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "honey-mustard-pork",
@@ -3359,7 +3423,8 @@
    "Season the pork and fry for 4–5 minutes each side until cooked through.",
    "Mix the mustard and honey, spoon over the pork in the pan and let it bubble for a minute.",
    "Serve with the potatoes and beans, spooning over the pan juices."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "hot-dogs",
@@ -3411,7 +3476,8 @@
    "Slice the onion and fry slowly in a little oil for 10 minutes until soft and golden.",
    "Heat the hot dog sausages in a pan of simmering water for 4–5 minutes (or as the packet says).",
    "Fill the rolls with sausages and onions and top with ketchup and mustard."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "french-bread-pizza",
@@ -3460,7 +3526,8 @@
    "Spread with passata and sprinkle with oregano.",
    "Top with torn mozzarella and pepperoni.",
    "Bake for 8–10 minutes until bubbling (air fryer: 180°C for 5 minutes; grill: 4–5 minutes). Serve with salad leaves."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sausage-pasta",
@@ -3507,7 +3574,8 @@
    "Squeeze the sausage meat out of the skins and fry in small chunks until browned and crispy.",
    "Add the garlic and chilli flakes for a minute, then the passata, and simmer for 8 minutes.",
    "Toss in the drained pasta with a splash of the cooking water and top with grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "ham-omelette",
@@ -3554,7 +3622,8 @@
    "Heat a little oil or butter in a frying pan, pour in the eggs and stir gently until almost set.",
    "Scatter over the chopped ham and grated cheese, fold in half and cook for another minute.",
    "Repeat for each person and serve with salad, tomatoes and toast."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "lamb-curry",
@@ -3615,7 +3684,8 @@
    "Stir in the garam masala and chilli powder for a minute, then add the tomatoes and a splash of water.",
    "Slow cooker: low for 6–8 hours. Hob or oven at 170°C: lid on, 1½ hours until tender.",
    "Stir in the yogurt off the heat and serve with rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "moussaka",
@@ -3685,7 +3755,8 @@
    "Brown the mince with the onion and garlic, then add the tomatoes and oregano and simmer for 15 minutes.",
    "Make a white sauce: melt the butter, stir in the flour, whisk in the milk until thick, then stir in half the cheese.",
    "Layer potatoes, mince and aubergine in a dish, pour over the sauce, top with the rest of the cheese and bake at 190°C for 35 minutes. Keep half for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "lamb-hotpot",
@@ -3744,7 +3815,8 @@
    "Add the stock cube dissolved in about 150ml boiling water per two portions and the Worcestershire sauce.",
    "Tip into a casserole dish and cover with overlapping thin slices of potato. Dot with butter.",
    "Bake with the lid on at 160°C for 1½ hours, then lid off for 30 minutes until the top is golden. (Slow cooker: low for 7 hours, then grill the top.)"
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "fish-pie",
@@ -3798,7 +3870,8 @@
    "Make a white sauce: melt the rest of the butter, stir in the flour, then whisk in the remaining milk until thick. Season well.",
    "Stir the fish and peas into the sauce and tip into an ovenproof dish.",
    "Top with the mash and grated cheese and bake at 200°C for 30 minutes until golden and bubbling."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "salmon-noodles",
@@ -3850,7 +3923,8 @@
    "Bake the salmon at 200°C for 12–15 minutes (air fryer: 180°C for 9 minutes), or pan-fry for 4 minutes each side.",
    "Cook the noodles as the packet says and stir-fry the veg for 3 minutes.",
    "Toss the noodles and veg with the rest of the sauce and serve topped with the salmon."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "tuna-fishcakes",
@@ -3910,7 +3984,8 @@
    "Mix in the drained tuna, sliced spring onions and seasoning, then shape into two cakes per person.",
    "Dust in flour, dip in beaten egg, then coat in breadcrumbs.",
    "Fry in a little oil for 3–4 minutes each side (or bake at 200°C for 20 minutes) until golden. Serve with salad and lemon wedges."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "prawn-curry",
@@ -3957,7 +4032,8 @@
    "Soften the chopped onion in a little oil for 5 minutes, then stir in the curry paste for a minute.",
    "Pour in the coconut milk and simmer for 5 minutes.",
    "Add the prawns and cook for 3 minutes until pink, then stir in the spinach until wilted."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "cajun-salmon",
@@ -4005,7 +4081,8 @@
    "Rub the salmon with the cajun seasoning and a little oil, add to the tray and roast for 12–15 minutes more (air fryer: 180°C for 10 minutes).",
    "Cook the green beans for 4 minutes.",
    "Serve with a spoon of soured cream."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "veg-lasagne",
@@ -4071,7 +4148,8 @@
    "Make a white sauce: melt the butter, stir in the flour, whisk in the milk until thick, then stir in half the cheese.",
    "Layer the veg sauce, lasagne sheets and white sauce in a dish, finishing with white sauce and the rest of the cheese.",
    "Bake at 190°C for 35 minutes until golden. Keep half for the leftovers night."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sweet-potato-curry",
@@ -4127,7 +4205,8 @@
    "Add the peeled, cubed sweet potato, drained chickpeas and coconut milk with a splash of water.",
    "Simmer for 20–25 minutes until the sweet potato is tender. (Slow cooker: low for 5–6 hours.)",
    "Stir in the spinach and serve with rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "veg-couscous",
@@ -4183,7 +4262,8 @@
    "Pour boiling water over the couscous (just enough to cover), cover for 5 minutes, then fluff with a fork.",
    "Stir the roasted veg and chickpeas through the couscous with a squeeze of lemon.",
    "Crumble over the feta to serve."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "cauliflower-cheese",
@@ -4242,7 +4322,8 @@
    "Make a cheese sauce: melt the butter, stir in the flour, whisk in the milk until thick, then stir in the mustard and most of the cheese.",
    "Tip the veg into a dish, pour over the sauce and top with the rest of the cheese.",
    "Bake at 200°C for 20 minutes or grill for 6–8 minutes until golden. Serve with warm bread."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "shakshuka",
@@ -4297,7 +4378,8 @@
    "Pour in the tomatoes and simmer for 10 minutes until thick. Season well.",
    "Make little wells in the sauce and crack in the eggs. Cover and cook gently for 6–8 minutes until the whites are set.",
    "Serve straight from the pan with warm bread."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "bean-tacos",
@@ -4358,7 +4440,8 @@
    "Warm the taco shells as the packet says.",
    "Slice the avocado and squeeze over the lime.",
    "Fill the shells with beans, lettuce, avocado, salsa and soured cream."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "leek-potato-soup",
@@ -4409,7 +4492,8 @@
    "Add the peeled, chopped potatoes and the stock cubes dissolved in about 300ml boiling water per portion.",
    "Simmer for 20 minutes until the potatoes are soft, then blend until smooth (or mash for a chunky soup).",
    "Stir in the cream, season and serve with warm bread."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "tomato-soup-toasties",
@@ -4460,7 +4544,8 @@
    "Blend until smooth, stir in the cream and season.",
    "Make cheese sandwiches, butter the outsides and fry in a dry pan for 2–3 minutes each side until golden and melted.",
    "Cut the toasties into soldiers for dipping."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "satay-veg-noodles",
@@ -4511,7 +4596,8 @@
    "Whisk the peanut butter, soy sauce, honey and lime juice with a splash of hot water.",
    "Stir-fry the veg and beansprouts in a hot pan for 3 minutes.",
    "Toss in the noodles and sauce until everything is coated."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "pesto-gnocchi",
@@ -4554,7 +4640,8 @@
    "Drain, keeping a splash of the water.",
    "Toss with the pesto and the splash of water until glossy.",
    "Top with grated cheese."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "halloumi-traybake",
@@ -4602,7 +4689,8 @@
    "Toss with oil, paprika, salt and pepper and roast for 20 minutes.",
    "Add the sliced halloumi and tomatoes and roast for 12–15 minutes more until the halloumi is golden (air fryer: 190°C, about 20 minutes in total).",
    "Serve straight from the tray."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "mushroom-stroganoff",
@@ -4653,7 +4741,8 @@
    "Soften the sliced onion and garlic in a little butter or oil for 5 minutes, then add the sliced mushrooms and cook for 8 minutes until golden.",
    "Stir in the paprika and the stock cube with a splash of water and bubble for 2 minutes.",
    "Take off the heat, stir in the soured cream and serve with the rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "beef-stroganoff",
@@ -4704,7 +4793,8 @@
    "Sear the beef in a very hot pan for 1–2 minutes, then take it out.",
    "Soften the onion and mushrooms in the same pan for 6 minutes, then stir in the paprika and the stock cube with a splash of water.",
    "Return the beef, stir in the soured cream off the heat and serve with the rice."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "chicken-chorizo-pasta",
@@ -4751,7 +4841,8 @@
    "Fry the sliced chorizo until it releases its red oil, then add the diced chicken and cook for 6 minutes.",
    "Add the garlic and tomatoes and simmer for 8 minutes, then stir in the crème fraîche.",
    "Toss in the drained pasta with a splash of cooking water."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "tuna-jackets",
@@ -4796,7 +4887,8 @@
    "Mix the drained tuna and sweetcorn with the mayo and plenty of black pepper.",
    "Split the potatoes and pile in the filling.",
    "Serve with salad leaves."
-  ]
+  ],
+  "meal": "dinner"
  },
  {
   "id": "sausage-rolls",
@@ -4840,6 +4932,828 @@
    "Lay along strips of pastry, roll up, seal with beaten egg and cut into rolls.",
    "Brush with egg and bake for 25 minutes until golden and cooked through (air fryer: 180°C for 15–18 minutes).",
    "Heat the beans and serve."
+  ],
+  "meal": "dinner"
+ },
+ {
+  "id": "porridge-banana",
+  "meal": "breakfast",
+  "name": "Porridge with Banana & Honey",
+  "emoji": "🥣",
+  "type": "quick",
+  "mins": 5,
+  "protein": "veg",
+  "family": "porridge",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "microwave"
+   ]
+  ],
+  "ing": [
+   [
+    "oats",
+    50
+   ],
+   [
+    "milk",
+    200
+   ],
+   [
+    "bananas",
+    0.5
+   ],
+   [
+    "honey",
+    8
+   ]
+  ],
+  "steps": [
+   "Put the oats and milk in a pan or a large microwave-safe bowl.",
+   "Hob: simmer for 4–5 minutes, stirring. Microwave: 2½–3 minutes on high, stirring halfway.",
+   "Top with sliced banana and a drizzle of honey."
+  ]
+ },
+ {
+  "id": "overnight-oats",
+  "meal": "breakfast",
+  "name": "Berry Overnight Oats",
+  "emoji": "🫐",
+  "type": "quick",
+  "mins": 5,
+  "protein": "veg",
+  "family": "porridge",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "oats",
+    45
+   ],
+   [
+    "milk",
+    120
+   ],
+   [
+    "natural-yogurt",
+    50
+   ],
+   [
+    "frozen-berries",
+    60
+   ],
+   [
+    "honey",
+    5
+   ]
+  ],
+  "steps": [
+   "The night before, mix the oats, milk and yogurt in a jar or bowl.",
+   "Stir in the frozen berries and honey.",
+   "Cover and leave in the fridge overnight. Eat cold in the morning."
+  ]
+ },
+ {
+  "id": "wheat-biscuits-banana",
+  "meal": "breakfast",
+  "name": "Wholewheat Biscuits & Banana",
+  "emoji": "🌾",
+  "type": "quick",
+  "mins": 2,
+  "protein": "veg",
+  "family": "cereal",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "wheat-biscuits",
+    2
+   ],
+   [
+    "milk",
+    150
+   ],
+   [
+    "bananas",
+    0.5
+   ]
+  ],
+  "steps": [
+   "Put two biscuits in a bowl.",
+   "Pour over the milk and top with sliced banana."
+  ]
+ },
+ {
+  "id": "granola-yogurt",
+  "meal": "breakfast",
+  "name": "Granola, Yogurt & Berries",
+  "emoji": "🍓",
+  "type": "quick",
+  "mins": 3,
+  "protein": "veg",
+  "family": "granola",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "granola",
+    45
+   ],
+   [
+    "natural-yogurt",
+    100
+   ],
+   [
+    "frozen-berries",
+    60
+   ]
+  ],
+  "steps": [
+   "Take the berries out of the freezer the night before, or microwave for 1 minute to soften.",
+   "Spoon the yogurt into a bowl.",
+   "Top with granola and the berries."
+  ]
+ },
+ {
+  "id": "toast-jam",
+  "meal": "breakfast",
+  "name": "Toast & Jam",
+  "emoji": "🍞",
+  "type": "quick",
+  "mins": 5,
+  "protein": "veg",
+  "family": "toast",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "butter",
+    10
+   ],
+   [
+    "jam",
+    20
+   ],
+   [
+    "apples",
+    0.5
+   ]
+  ],
+  "steps": [
+   "Toast the bread in a toaster or under the grill.",
+   "Spread with butter and jam.",
+   "Serve with apple slices."
+  ]
+ },
+ {
+  "id": "scrambled-eggs",
+  "meal": "breakfast",
+  "name": "Scrambled Eggs on Toast",
+  "emoji": "🍳",
+  "type": "quick",
+  "mins": 10,
+  "protein": "veg",
+  "family": "eggs",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "microwave"
+   ]
+  ],
+  "ing": [
+   [
+    "eggs",
+    2
+   ],
+   [
+    "milk",
+    20
+   ],
+   [
+    "butter",
+    8
+   ],
+   [
+    "white-bread",
+    80
+   ]
+  ],
+  "steps": [
+   "Beat the eggs with the milk and a pinch of salt and pepper.",
+   "Hob: melt the butter in a pan over a low heat, add the eggs and stir gently until just set. Microwave: cook in 30-second bursts, stirring between each.",
+   "Serve on hot buttered toast."
+  ]
+ },
+ {
+  "id": "beans-on-toast",
+  "meal": "breakfast",
+  "name": "Beans on Toast",
+  "emoji": "🫘",
+  "type": "quick",
+  "mins": 6,
+  "protein": "veg",
+  "family": "beans-toast",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "microwave"
+   ]
+  ],
+  "ing": [
+   [
+    "baked-beans",
+    200
+   ],
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "butter",
+    5
+   ]
+  ],
+  "steps": [
+   "Heat the beans in a pan or the microwave until piping hot.",
+   "Toast and butter the bread.",
+   "Spoon the beans over the toast."
+  ]
+ },
+ {
+  "id": "bacon-sandwich",
+  "meal": "breakfast",
+  "weekday": false,
+  "name": "Bacon Sandwich",
+  "emoji": "🥓",
+  "type": "quick",
+  "mins": 12,
+  "protein": "pork",
+  "family": "bacon",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "grill",
+    "airfryer"
+   ]
+  ],
+  "ing": [
+   [
+    "bacon",
+    50
+   ],
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "butter",
+    5
+   ],
+   [
+    "ketchup",
+    15
+   ]
+  ],
+  "steps": [
+   "Grill, fry or air fry the bacon for 3–4 minutes each side until cooked.",
+   "Butter the bread.",
+   "Fill with bacon and add ketchup or brown sauce."
+  ]
+ },
+ {
+  "id": "pancakes",
+  "meal": "breakfast",
+  "weekday": false,
+  "name": "Pancakes with Berries",
+  "emoji": "🥞",
+  "type": "quick",
+  "mins": 20,
+  "protein": "veg",
+  "family": "pancakes",
+  "spicy": false,
+  "needs": [
+   [
+    "hob"
+   ]
+  ],
+  "ing": [
+   [
+    "plain-flour",
+    50
+   ],
+   [
+    "eggs",
+    0.5
+   ],
+   [
+    "milk",
+    80
+   ],
+   [
+    "butter",
+    8
+   ],
+   [
+    "frozen-berries",
+    50
+   ],
+   [
+    "honey",
+    10
+   ]
+  ],
+  "steps": [
+   "Whisk the flour, eggs, milk and a pinch of salt into a thick batter.",
+   "Heat a little butter in a non-stick pan over a medium heat and add a ladle of batter per pancake.",
+   "Cook for 2 minutes until bubbles appear, flip and cook for 1 minute more.",
+   "Warm the berries and serve on top with honey."
+  ]
+ },
+ {
+  "id": "egg-soldiers",
+  "meal": "breakfast",
+  "weekday": false,
+  "name": "Boiled Eggs & Soldiers",
+  "emoji": "🥚",
+  "type": "quick",
+  "mins": 10,
+  "protein": "veg",
+  "family": "eggs",
+  "spicy": false,
+  "needs": [
+   [
+    "hob"
+   ]
+  ],
+  "ing": [
+   [
+    "eggs",
+    2
+   ],
+   [
+    "white-bread",
+    60
+   ],
+   [
+    "butter",
+    8
+   ]
+  ],
+  "steps": [
+   "Lower the eggs into a pan of simmering water and cook for 6 minutes for runny yolks.",
+   "Toast and butter the bread, then cut into strips.",
+   "Serve the eggs in egg cups with the soldiers for dipping."
+  ]
+ },
+ {
+  "id": "ham-cheese-sandwich",
+  "meal": "lunch",
+  "name": "Ham & Cheese Sandwich",
+  "emoji": "🥪",
+  "type": "quick",
+  "mins": 5,
+  "protein": "pork",
+  "family": "sandwich",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "butter",
+    8
+   ],
+   [
+    "ham",
+    40
+   ],
+   [
+    "cheddar",
+    25
+   ],
+   [
+    "lettuce",
+    0.05
+   ],
+   [
+    "apples",
+    1
+   ]
+  ],
+  "steps": [
+   "Butter the bread.",
+   "Fill with ham, sliced cheese and lettuce.",
+   "Pack with an apple."
+  ]
+ },
+ {
+  "id": "tuna-wrap",
+  "meal": "lunch",
+  "name": "Tuna Sweetcorn Wrap",
+  "emoji": "🌯",
+  "type": "quick",
+  "mins": 5,
+  "protein": "fish",
+  "family": "wrap",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "tortilla-wraps",
+    1
+   ],
+   [
+    "tuna",
+    60
+   ],
+   [
+    "sweetcorn",
+    30
+   ],
+   [
+    "mayonnaise",
+    15
+   ],
+   [
+    "lettuce",
+    0.05
+   ],
+   [
+    "bananas",
+    1
+   ]
+  ],
+  "steps": [
+   "Mix the drained tuna and sweetcorn with the mayo and black pepper.",
+   "Spread down the middle of the wrap and add shredded lettuce.",
+   "Roll up tightly and cut in half. Pack with a banana."
+  ]
+ },
+ {
+  "id": "egg-mayo-sandwich",
+  "meal": "lunch",
+  "name": "Egg Mayo Sandwich",
+  "emoji": "🥚",
+  "type": "quick",
+  "mins": 15,
+  "protein": "veg",
+  "family": "sandwich",
+  "spicy": false,
+  "needs": [
+   [
+    "hob"
+   ]
+  ],
+  "ing": [
+   [
+    "eggs",
+    1.5
+   ],
+   [
+    "mayonnaise",
+    15
+   ],
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "cucumber",
+    0.1
+   ],
+   [
+    "apples",
+    1
+   ]
+  ],
+  "steps": [
+   "Boil the eggs for 9 minutes, cool in cold water, then peel. Do a batch at the start of the week.",
+   "Mash with the mayo and season well.",
+   "Fill the bread with egg mayo and sliced cucumber. Pack with an apple."
+  ]
+ },
+ {
+  "id": "chicken-pesto-pasta-salad",
+  "meal": "lunch",
+  "name": "Chicken Pesto Pasta Salad",
+  "emoji": "🥗",
+  "type": "quick",
+  "mins": 20,
+  "protein": "chicken",
+  "family": "pasta-salad",
+  "spicy": false,
+  "needs": [
+   [
+    "hob"
+   ]
+  ],
+  "ing": [
+   [
+    "pasta",
+    70
+   ],
+   [
+    "chicken-breast",
+    60
+   ],
+   [
+    "pesto",
+    20
+   ],
+   [
+    "cherry-tomatoes",
+    40
+   ],
+   [
+    "sweetcorn",
+    30
+   ]
+  ],
+  "steps": [
+   "Cook the pasta, then rinse under cold water and drain. Make enough for all the lunch days at once.",
+   "Fry the diced chicken for 6–7 minutes until cooked through, then cool.",
+   "Mix the pasta, chicken, pesto, halved tomatoes and sweetcorn.",
+   "Pack into tubs and keep in the fridge for up to 3 days."
+  ]
+ },
+ {
+  "id": "cheese-toastie-lunch",
+  "meal": "lunch",
+  "name": "Cheese & Tomato Toastie",
+  "emoji": "🧀",
+  "type": "quick",
+  "mins": 10,
+  "protein": "veg",
+  "family": "toastie",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "grill"
+   ]
+  ],
+  "ing": [
+   [
+    "white-bread",
+    80
+   ],
+   [
+    "cheddar",
+    40
+   ],
+   [
+    "cherry-tomatoes",
+    30
+   ],
+   [
+    "butter",
+    10
+   ],
+   [
+    "apples",
+    1
+   ]
+  ],
+  "steps": [
+   "Fill the bread with grated cheese and sliced tomato.",
+   "Butter the outsides.",
+   "Fry for 2–3 minutes each side, or grill, until golden and melted. Serve with an apple."
+  ]
+ },
+ {
+  "id": "carrot-lentil-soup",
+  "meal": "lunch",
+  "name": "Carrot & Lentil Soup",
+  "emoji": "🥕",
+  "type": "quick",
+  "mins": 30,
+  "protein": "veg",
+  "family": "soup",
+  "spicy": false,
+  "needs": [
+   [
+    "hob"
+   ]
+  ],
+  "ing": [
+   [
+    "carrot",
+    100
+   ],
+   [
+    "red-lentils",
+    30
+   ],
+   [
+    "onion",
+    40
+   ],
+   [
+    "veg-stock",
+    0.25
+   ],
+   [
+    "cumin",
+    0.5
+   ],
+   [
+    "white-bread",
+    40
+   ]
+  ],
+  "steps": [
+   "Soften the chopped onion in a large pan for 5 minutes, then add the cumin.",
+   "Add the grated carrot, rinsed lentils and the stock cubes dissolved in about 300ml boiling water per portion.",
+   "Simmer for 20 minutes, then blend until smooth. Make one big pan for all the lunch days.",
+   "Reheat until piping hot and serve with bread."
+  ]
+ },
+ {
+  "id": "chicken-caesar-wrap",
+  "meal": "lunch",
+  "name": "Chicken Caesar Wrap",
+  "emoji": "🌯",
+  "type": "quick",
+  "mins": 15,
+  "protein": "chicken",
+  "family": "wrap",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "oven",
+    "airfryer",
+    "grill"
+   ]
+  ],
+  "ing": [
+   [
+    "tortilla-wraps",
+    1
+   ],
+   [
+    "chicken-breast",
+    70
+   ],
+   [
+    "salad-leaves",
+    25
+   ],
+   [
+    "mayonnaise",
+    15
+   ],
+   [
+    "parmesan",
+    5
+   ],
+   [
+    "lemon",
+    0.1
+   ]
+  ],
+  "steps": [
+   "Cook the chicken (fry, grill or air fry for 12–15 minutes), cool and slice.",
+   "Mix the mayo with a squeeze of lemon and the grated cheese.",
+   "Fill the wrap with leaves, chicken and the dressing, roll up and cut in half."
+  ]
+ },
+ {
+  "id": "ploughmans",
+  "meal": "lunch",
+  "name": "Ploughman's Lunch",
+  "emoji": "🧺",
+  "type": "quick",
+  "mins": 5,
+  "protein": "pork",
+  "family": "ploughmans",
+  "spicy": false,
+  "needs": [],
+  "ing": [
+   [
+    "baguette",
+    0.25
+   ],
+   [
+    "cheddar",
+    40
+   ],
+   [
+    "ham",
+    30
+   ],
+   [
+    "cherry-tomatoes",
+    40
+   ],
+   [
+    "apples",
+    0.5
+   ],
+   [
+    "butter",
+    8
+   ]
+  ],
+  "steps": [
+   "Cut the bread and butter it.",
+   "Slice the cheese and apple.",
+   "Plate or pack with the ham and tomatoes."
+  ]
+ },
+ {
+  "id": "beans-cheese-jacket",
+  "meal": "lunch",
+  "name": "Cheesy Beans Jacket",
+  "emoji": "🥔",
+  "type": "quick",
+  "mins": 12,
+  "protein": "veg",
+  "family": "jacket",
+  "spicy": false,
+  "needs": [
+   [
+    "microwave"
+   ]
+  ],
+  "ing": [
+   [
+    "potatoes",
+    250
+   ],
+   [
+    "baked-beans",
+    150
+   ],
+   [
+    "cheddar",
+    25
+   ]
+  ],
+  "steps": [
+   "Prick the potato and microwave on high for 7–9 minutes, turning halfway, until soft.",
+   "Heat the beans.",
+   "Split the potato and top with beans and grated cheese."
+  ]
+ },
+ {
+  "id": "pitta-houmous-veg",
+  "meal": "lunch",
+  "name": "Chicken & Salad Pittas",
+  "emoji": "🫓",
+  "type": "quick",
+  "mins": 15,
+  "protein": "chicken",
+  "family": "pitta",
+  "spicy": false,
+  "needs": [
+   [
+    "hob",
+    "oven",
+    "airfryer",
+    "grill"
+   ]
+  ],
+  "ing": [
+   [
+    "pitta",
+    1.5
+   ],
+   [
+    "chicken-breast",
+    60
+   ],
+   [
+    "natural-yogurt",
+    30
+   ],
+   [
+    "cucumber",
+    0.1
+   ],
+   [
+    "lettuce",
+    0.05
+   ],
+   [
+    "cherry-tomatoes",
+    30
+   ]
+  ],
+  "steps": [
+   "Cook the chicken (fry, grill or air fry for 12–15 minutes), cool and slice.",
+   "Grate a little cucumber into the yogurt with salt and pepper.",
+   "Warm the pittas, split and fill with lettuce, tomatoes, chicken and the yogurt sauce."
   ]
  }
 ]

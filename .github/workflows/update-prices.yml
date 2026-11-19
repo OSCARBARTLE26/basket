@@ -2,7 +2,7 @@ name: Update prices
 
 # Runs once a month (05:17 UTC on the 20th, just after your Apify credit resets)
 # and whenever you press "Run workflow".
-# A full run searches 130 ingredients and costs about $2.50-$3.25 of Apify credit,
+# A full run searches 137 ingredients and costs about $2.50-$3.25 of Apify credit,
 # capped at $4, so the free $5 a month covers it.
 # Tick "Only missing items" for a cheap top-up run (new recipes or gaps).
 on:
