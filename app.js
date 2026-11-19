@@ -540,7 +540,7 @@ function settingsView() {
     ? '<p class="hint" style="margin:0">Basket is using sample prices. Run the price update in GitHub to load real ones.</p>'
     : `<div class="data-status">${Object.entries(STORES).map(([k, v]) => {
       const st = p.status?.[k];
-      return `<div><span>${esc(v.name)}</span><span>${st ? `${st.ingredients} items, ${fmtDate(st.updated)}${st.kept ? ' (last good update)' : ''}` : 'No data'}</span></div>`;
+      return `<div><span>${esc(v.name)}</span><span>${st ? `${st.ingredients} of ${data.ingredients.length} ingredients, ${fmtDate(st.updated)}${st.kept ? ' (last good update)' : ''}` : 'No data'}</span></div>`;
     }).join('')}</div>`;
   const hidden = state.hidden.map((id) => data.recipe[id]).filter(Boolean);
   return `<h1 class="screen-title">Settings</h1><p class="screen-sub">These apply to every week you plan.</p>
@@ -556,7 +556,7 @@ function settingsView() {
   </section>
   <section class="section">
     <h2>Prices</h2>
-    <p class="hint">${p.sample ? '' : `Last updated ${fmtDate(p.updated)}. `}Prices are the standard online price each supermarket shows, so your local store may differ slightly.</p>
+    <p class="hint">${p.sample ? '' : `Last updated ${fmtDate(p.updated)}. `}Basket prices the ingredients its recipes use, not a supermarket's whole range. Anything not found uses an estimate, marked "est.". Prices are the standard online price, so your local store may differ slightly.</p>
     ${statusRows}
   </section>
   <section class="section">
