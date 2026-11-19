@@ -74,7 +74,8 @@
 "marmalade",
 "crisps",
 "relish",
-"spring"
+"spring",
+"large"
 ],
 "avoid": [],
 "sample": [
@@ -125,7 +126,8 @@
 "chopped",
 "minced",
 "frozen",
-"grinder"
+"grinder",
+"flatbread"
 ],
 "avoid": [],
 "sample": [
@@ -324,7 +326,10 @@
 "wellington",
 "ketchup",
 "sliced in",
-"chestnut"
+"chestnut",
+"noodle",
+"cup",
+"flavour"
 ],
 "avoid": [
 "mushrooms"
@@ -361,7 +366,11 @@
 "frozen",
 "creamed",
 "salad bowl",
-"ravioli"
+"ravioli",
+"dhal",
+"lentil",
+"potato",
+"angels"
 ],
 "avoid": [],
 "sample": [
@@ -1168,7 +1177,9 @@
 "snack",
 "tapas",
 "salad",
-"mini"
+"mini",
+"platter",
+"grazing"
 ],
 "avoid": [
 "meat",
@@ -1275,7 +1286,8 @@
 "cheese",
 "parsley",
 "loin in",
-"chorizo"
+"chorizo",
+"chip shop"
 ],
 "avoid": [
 "fish"
@@ -1524,7 +1536,9 @@
 "skimmed milk powder",
 "1%",
 "filtered",
-"jersey"
+"jersey",
+"long life",
+"uht"
 ],
 "avoid": [
 "dairy"
@@ -1589,7 +1603,10 @@
 "body",
 "spreadable lighter",
 "brandy",
-"fish"
+"fish",
+"potato",
+"parmentier",
+"coated"
 ],
 "avoid": [
 "dairy"
@@ -1828,7 +1845,10 @@
 "pots",
 "multipack",
 "bio live honey",
-"high protein drink"
+"high protein drink",
+"skyr",
+"protein",
+"greek"
 ],
 "avoid": [
 "dairy"
@@ -2005,7 +2025,9 @@
 "mini",
 "gluten free",
 "cheese",
-"chilli"
+"chilli",
+"garlic",
+"coriander"
 ],
 "avoid": [],
 "sample": [
@@ -2043,7 +2065,8 @@
 "garlic",
 "gyros",
 "kebab",
-"pizza"
+"pizza",
+"mediterranean"
 ],
 "avoid": [],
 "sample": [
@@ -2267,7 +2290,9 @@
 "alphabetti",
 "letters",
 "shapes",
-"frozen"
+"frozen",
+"loops",
+"hoop"
 ],
 "avoid": [],
 "sample": [
@@ -2404,7 +2429,8 @@
 "lentil",
 "sticky",
 "rice and",
-"wild"
+"wild",
+"basmati"
 ],
 "avoid": [],
 "sample": [
@@ -3382,7 +3408,10 @@
 "popcorn",
 "chips",
 "pasta",
-"stir fry kit"
+"stir fry kit",
+"stir fry",
+"houmous",
+"hummus"
 ],
 "avoid": [],
 "sample": [
@@ -3622,7 +3651,9 @@
 "harissa",
 "bacon",
 "cheese",
-"sauce mix"
+"sauce mix",
+"festive",
+"feast"
 ],
 "avoid": [],
 "sample": [
@@ -3754,7 +3785,12 @@
 "beans",
 "mayo",
 "sauce",
-"grinder"
+"grinder",
+"ridged",
+"punchy",
+"max",
+"strong",
+"butter"
 ],
 "avoid": [],
 "sample": [
@@ -3855,7 +3891,8 @@
 "japanese",
 "katsu",
 "jamaican",
-"sachet"
+"sachet",
+"tandoori"
 ],
 "avoid": [],
 "sample": [

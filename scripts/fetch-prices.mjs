@@ -64,12 +64,25 @@ function parseText(raw, preferCount) {
   return preferCount ? (parseCount(s) || parseWeight(s)) : (parseWeight(s) || parseCount(s));
 }
 
+const LOOSE = /(^|\s)(each|single|loose)(\s|$)/;
+
 export function parseQty(item, ing) {
-  const preferCount = ing?.unit === 'each';
-  const fromSize = parseText(item.size, preferCount);
-  if (fromSize) return fromSize;
-  const fromName = parseText(item.name, preferCount);
-  if (fromName) return fromName;
+  const name = norm(item.name).replace(/,/g, ''), size = norm(item.size).replace(/,/g, '');
+  if (ing?.unit === 'each') {
+    // A count in the name ("6 Pack", "8 Wraps") beats a size field that often just says "each".
+    const counted = [name, size].map((t) => t && !LOOSE.test(t) ? parseCount(t) : null).find(Boolean);
+    if (counted) return counted;
+    const weighed = parseWeight(size) || parseWeight(name);
+    if (weighed) return weighed;
+    if (LOOSE.test(name) || LOOSE.test(size)) return { q: 1, u: 'each' };
+    // No count anywhere: assume the usual pack (a bag of wraps isn't one wrap).
+    if (ing.sample?.[0] > 1) return { q: ing.sample[0], u: 'each' };
+  } else {
+    const fromSize = parseText(item.size, false);
+    if (fromSize) return fromSize;
+    const fromName = parseText(item.name, false);
+    if (fromName) return fromName;
+  }
   const cup = Number(item.comparableUnitPrice), price = Number(item.price);
   if (cup > 0 && price > 0) {
     const unit = norm(item.comparableUnit);
@@ -135,11 +148,32 @@ export function buildPrices(items, ingredients, previous) {
       status[s] = { products: 0, ingredients: Object.keys(prevStore).length, kept: true, updated: previous.status?.[s]?.updated || previous.updated };
     } else {
       // Fill individual gaps from last time so one bad search doesn't remove an ingredient.
-      if (prevStore) for (const [k, v] of Object.entries(prevStore)) if (!stores[s][k]) stores[s][k] = v;
+      if (prevStore) for (const [k, v] of Object.entries(prevStore)) {
+        const ing = ingredients.find((i) => i.key === k);
+        if (!stores[s][k] && ing) { const kept = v.filter((p) => matches(ing, p.n)); if (kept.length) stores[s][k] = kept; }
+      }
       status[s] = { products: seen[s], ingredients: Object.keys(stores[s]).length, kept: false, updated: new Date().toISOString() };
     }
   }
   return { updated: new Date().toISOString(), sample: false, source: 'Apify: griffie/uk-supermarket-prices', status, stores };
+}
+
+// Re-check saved prices against the current rules (no new Apify run, no cost).
+export function rematch(prices, ingredients) {
+  const out = JSON.parse(JSON.stringify(prices));
+  for (const [s, store] of Object.entries(out.stores)) {
+    for (const ing of ingredients) {
+      const list = (store[ing.key] || []).filter((p) => matches(ing, p.n)).map((p) => {
+        if (ing.unit !== 'each') return p;
+        const q = toIngredientUnit(ing, parseQty({ name: p.n, size: '' }, ing));
+        return q ? { ...p, q } : p;
+      });
+      list.sort((a, b) => a.p / a.q - b.p / b.q);
+      if (list.length) store[ing.key] = list; else delete store[ing.key];
+    }
+    if (out.status?.[s]) out.status[s].ingredients = Object.keys(store).length;
+  }
+  return out;
 }
 
 // ---------- Apify ----------
@@ -188,6 +222,13 @@ async function main() {
   const { items: ingredients } = JSON.parse(await readFile(pathOf('data/ingredients.json'), 'utf8'));
   let previous = null;
   try { previous = JSON.parse(await readFile(pathOf('data/prices.json'), 'utf8')); } catch { /* first run */ }
+
+  if (process.argv.includes('--rematch')) {
+    const fixed = rematch(previous, ingredients);
+    await writeFile(pathOf('data/prices.json'), JSON.stringify(fixed));
+    for (const [st, v] of Object.entries(fixed.status)) console.log(st.padEnd(10), v.ingredients, 'ingredients priced');
+    return;
+  }
 
   const fromIdx = process.argv.indexOf('--from');
   let items;
