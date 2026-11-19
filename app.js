@@ -427,6 +427,23 @@ function spendSummary() {
 }
 
 /* ================= rendering ================= */
+// Make sure the page shell exists, even if an older index.html is still cached on the phone.
+function ensureShell() {
+  const make = (tag, id, cls, attrs = {}) => {
+    if (document.getElementById(id)) return;
+    const el = document.createElement(tag); el.id = id; if (cls) el.className = cls;
+    Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v));
+    document.body.appendChild(el);
+  };
+  make('main', 'app', 'app');
+  make('nav', 'tabbar', 'tabbar', { 'aria-label': 'Main' });
+  make('div', 'backdrop', 'sheet-backdrop', { hidden: '' });
+  make('div', 'sheet', 'sheet', { role: 'dialog', 'aria-modal': 'true', hidden: '' });
+  make('div', 'toast', 'toast', { role: 'status' });
+  document.querySelectorAll('body > nav.nav').forEach((n) => n.remove()); // old tab bar
+  document.getElementById('app').className = 'app';
+}
+ensureShell();
 const app = $('#app');
 let computed = null;
 
