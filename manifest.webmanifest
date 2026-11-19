@@ -1,0 +1,16 @@
+{
+  "name": "Basket: budget meal planner",
+  "short_name": "Basket",
+  "description": "A week of family dinners and one shopping list that fits your budget.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e6f2dc",
+  "theme_color": "#2b1740",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

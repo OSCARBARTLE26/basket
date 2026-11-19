@@ -1,0 +1,226 @@
+[
+  {"id":"spag-bol","name":"Spaghetti Bolognese","emoji":"🍝","type":"batch","mins":45,"protein":"beef","family":"mince-pasta","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["beef-mince",125],["onion",75],["carrot",50],["garlic",5],["chopped-tomatoes",200],["tomato-puree",15],["beef-stock",0.25],["mixed-herbs",1],["spaghetti",90],["cheddar",15]],
+   "steps":["Finely chop the onion and carrot, and crush the garlic.","Brown the mince in a large pan with a splash of oil, breaking it up as it cooks. Add the onion, carrot and garlic and cook for 5 minutes until soft.","Stir in the tomato purée, chopped tomatoes, herbs and crumbled stock cube with a splash of water. Simmer for 25–30 minutes until thick and rich.","Cook the spaghetti for tonight's portions and serve with the sauce and grated cheese."]},
+
+  {"id":"chilli","name":"Chilli con Carne","emoji":"🌶️","type":"batch","mins":50,"protein":"beef","family":"chilli","spicy":true,
+   "needs":[["hob","slowcooker"]],
+   "ing":[["beef-mince",125],["onion",75],["peppers",60],["garlic",5],["chopped-tomatoes",200],["kidney-beans",100],["chilli-powder",2],["cumin",1],["beef-stock",0.25],["rice",75]],
+   "steps":["Chop the onion and pepper, and crush the garlic.","Brown the mince in a large pan, then add the onion, pepper and garlic and cook for 5 minutes.","Stir in the chilli powder and cumin for a minute, then add the tomatoes, drained kidney beans and crumbled stock cube.","Simmer for 30 minutes, stirring now and then. (Slow cooker: brown the mince first, then everything in on low for 6–8 hours.)","Cook the rice for tonight's portions and serve."]},
+
+  {"id":"fajitas","name":"Chicken Fajitas","emoji":"🌯","type":"quick","mins":25,"protein":"chicken","family":"wraps","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["chicken-breast",150],["peppers",120],["red-onion",75],["fajita-seasoning",7],["tortilla-wraps",2],["natural-yogurt",30],["cheddar",20]],
+   "steps":["Slice the chicken, peppers and onion into thin strips.","Fry the chicken in a hot pan with a little oil for 5 minutes, then add the veg and cook for another 5 minutes.","Sprinkle over the fajita seasoning with a splash of water and toss until everything is coated and the chicken is cooked through.","Warm the wraps and fill with the chicken, a spoon of yogurt and some grated cheese."]},
+
+  {"id":"sausage-mash","name":"Sausage & Mash with Gravy","emoji":"🌭","type":"quick","mins":30,"protein":"pork","family":"sausage","spicy":false,
+   "needs":[["hob"],["oven","grill","airfryer"]],
+   "ing":[["sausages",114],["potatoes",250],["butter",10],["milk",30],["gravy-granules",6],["peas",80]],
+   "steps":["Cook the sausages in the oven at 200°C for 25 minutes, under the grill, or in the air fryer at 180°C for 12–15 minutes, turning halfway.","Peel and chop the potatoes, boil for 15–20 minutes until soft, then drain and mash with the butter and milk.","Cook the peas for 3 minutes.","Make the gravy with boiling water as the packet says, and serve everything together."]},
+
+  {"id":"tikka-masala","name":"Chicken Tikka Masala","emoji":"🍛","type":"batch","mins":40,"protein":"chicken","family":"curry","spicy":false,
+   "needs":[["hob","slowcooker"]],
+   "ing":[["chicken-breast",150],["onion",75],["garlic",5],["curry-paste",35],["chopped-tomatoes",120],["double-cream",40],["rice",75]],
+   "steps":["Dice the chicken, chop the onion and crush the garlic.","Soften the onion and garlic in a large pan with a little oil for 5 minutes, then stir in the curry paste for a minute.","Add the chicken and cook until sealed, then pour in the tomatoes and simmer for 20 minutes. (Slow cooker: everything except the cream on low for 5–6 hours.)","Stir in the cream and warm through.","Cook the rice for tonight's portions and serve."]},
+
+  {"id":"shepherds-pie","name":"Shepherd's Pie","emoji":"🥧","type":"batch","mins":60,"protein":"lamb","family":"pie","spicy":false,
+   "needs":[["hob"],["oven"]],
+   "ing":[["lamb-mince",125],["onion",75],["carrot",60],["peas",40],["beef-stock",0.25],["tomato-puree",10],["potatoes",250],["butter",10],["milk",30],["cheddar",15]],
+   "steps":["Peel and chop the potatoes and boil for 15–20 minutes until soft. Drain and mash with the butter and milk.","Meanwhile, brown the mince, then add the chopped onion and carrot and cook for 5 minutes.","Stir in the tomato purée, crumbled stock cube and a splash of water. Simmer for 15 minutes, adding the peas at the end.","Spoon the mince into an ovenproof dish, top with the mash and grated cheese, and bake at 200°C for 25 minutes until golden.","Keep half back (in a second dish if you can) for the leftovers night."]},
+
+  {"id":"cottage-pie","name":"Cottage Pie","emoji":"🥧","type":"batch","mins":60,"protein":"beef","family":"pie","spicy":false,
+   "needs":[["hob"],["oven"]],
+   "ing":[["beef-mince",125],["onion",75],["carrot",60],["peas",40],["beef-stock",0.25],["tomato-puree",10],["potatoes",250],["butter",10],["milk",30],["cheddar",15]],
+   "steps":["Peel and chop the potatoes and boil for 15–20 minutes until soft. Drain and mash with the butter and milk.","Meanwhile, brown the mince, then add the chopped onion and carrot and cook for 5 minutes.","Stir in the tomato purée, crumbled stock cube and a splash of water. Simmer for 15 minutes, adding the peas at the end.","Spoon the mince into an ovenproof dish, top with the mash and grated cheese, and bake at 200°C for 25 minutes until golden.","Keep half back (in a second dish if you can) for the leftovers night."]},
+
+  {"id":"lasagne","name":"Beef Lasagne","emoji":"🧀","type":"batch","mins":75,"protein":"beef","family":"mince-pasta","spicy":false,
+   "needs":[["hob"],["oven"]],
+   "ing":[["beef-mince",125],["onion",60],["carrot",40],["garlic",5],["chopped-tomatoes",150],["tomato-puree",10],["lasagne-sheets",60],["milk",150],["butter",15],["plain-flour",15],["cheddar",30]],
+   "steps":["Brown the mince, add the chopped onion, carrot and garlic and cook for 5 minutes. Stir in the tomato purée and tomatoes and simmer for 20 minutes.","For the white sauce, melt the butter, stir in the flour for a minute, then slowly whisk in the milk until thick and smooth. Stir in half the cheese.","Layer meat sauce, lasagne sheets and white sauce in an ovenproof dish, finishing with white sauce and the rest of the cheese.","Bake at 190°C for 35–40 minutes until golden and bubbling. Rest for 5 minutes before cutting.","Cool and fridge half for the leftovers night."]},
+
+  {"id":"beef-stew","name":"Slow-Cooked Beef Stew","emoji":"🍲","type":"batch","mins":240,"protein":"beef","family":"stew","spicy":false,
+   "needs":[["slowcooker","oven","hob"]],
+   "ing":[["diced-beef",150],["onion",75],["carrot",100],["potatoes",150],["beef-stock",0.5],["plain-flour",10],["tomato-puree",10],["mixed-herbs",1]],
+   "steps":["Toss the beef in the flour with a pinch of salt and pepper, then brown it in batches in a hot pan with a little oil.","Chop the onion, carrots and potatoes into chunks.","Put everything into the slow cooker (or a lidded casserole dish) with the tomato purée, herbs and stock cubes dissolved in enough boiling water to just cover.","Slow cooker: 7–8 hours on low. Oven: 3 hours at 160°C with the lid on. Hob: simmer gently with the lid on for 2½ hours, stirring now and then.","Season and serve with crusty bread if you like."]},
+
+  {"id":"pulled-pork","name":"Pulled Pork Burgers & Slaw","emoji":"🍔","type":"batch","mins":300,"protein":"pork","family":"burger","spicy":false,
+   "needs":[["slowcooker","oven"]],
+   "ing":[["pork-shoulder",200],["bbq-sauce",40],["onion",50],["burger-buns",1],["carrot",50],["mayonnaise",15]],
+   "steps":["Slice the onion into the slow cooker or a roasting tin. Remove any string and skin from the pork and sit it on top with half the BBQ sauce and a splash of water.","Slow cooker: 8 hours on low. Oven: cover tightly with foil and cook at 150°C for 4–5 hours.","Shred the pork with two forks and stir in the rest of the BBQ sauce and some of the cooking juices.","For the slaw, grate the carrot and mix with the mayo and a pinch of salt and pepper.","Pile the pork and slaw into buns. Keep half the pork for the leftovers night."]},
+
+  {"id":"sweet-chilli-noodles","name":"Sweet Chilli Chicken Noodles","emoji":"🥢","type":"quick","mins":20,"protein":"chicken","family":"noodles","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["chicken-breast",125],["stirfry-veg",150],["egg-noodles",75],["soy-sauce",15],["sweet-chilli",20],["garlic",5]],
+   "steps":["Cook the noodles as the packet says, then drain.","Slice the chicken into strips and stir-fry in a hot pan or wok with a little oil for 5–6 minutes until cooked through.","Add the crushed garlic and the stir fry veg and cook for 3 minutes.","Toss in the noodles, soy sauce and sweet chilli sauce until everything is glossy and hot."]},
+
+  {"id":"lemon-salmon","name":"Lemon Butter Salmon & Potatoes","emoji":"🐟","type":"quick","mins":30,"protein":"fish","family":"fish-potatoes","spicy":false,
+   "needs":[["oven","airfryer"],["hob"]],
+   "ing":[["salmon",120],["potatoes",200],["green-beans",80],["lemon",0.25],["butter",10]],
+   "steps":["Cut the potatoes into small chunks and boil for 15 minutes until tender.","Put the salmon on a lined tray, top each fillet with a little butter and a squeeze of lemon, and bake at 200°C for 12–15 minutes (air fryer: 180°C for 9–10 minutes).","Boil or steam the green beans for 4 minutes.","Toss the potatoes in the rest of the butter with salt and pepper, and serve with the salmon, beans and lemon wedges."]},
+
+  {"id":"fish-fingers","name":"Fish Fingers, Chips & Peas","emoji":"🍟","type":"quick","mins":25,"protein":"fish","family":"chips","spicy":false,
+   "needs":[["oven","airfryer"],["hob","microwave"]],
+   "ing":[["fish-fingers",112],["oven-chips",200],["peas",80]],
+   "steps":["Cook the chips and fish fingers in the oven or air fryer, following the packet times. Put the chips in first as they take longer.","Cook the peas on the hob or in the microwave for 3 minutes.","Serve with ketchup or a squeeze of lemon."]},
+
+  {"id":"cheeseburgers","name":"Homemade Cheeseburgers & Chips","emoji":"🍔","type":"quick","mins":30,"protein":"beef","family":"burger","spicy":false,
+   "needs":[["hob","grill","airfryer"],["oven","airfryer"]],
+   "ing":[["beef-mince",150],["onion",25],["burger-buns",1],["cheddar",20],["lettuce",0.1],["oven-chips",200]],
+   "steps":["Put the chips in the oven or air fryer, following the packet.","Mix the mince with the finely chopped onion, salt and pepper, and shape into burgers about 2cm thick.","Fry, grill or air fry the burgers for 4–5 minutes each side until cooked through. Add a slice of cheese for the last minute.","Toast the buns and build the burgers with shredded lettuce."]},
+
+  {"id":"creamy-mushroom-pasta","name":"Creamy Chicken & Mushroom Pasta","emoji":"🍄","type":"quick","mins":25,"protein":"chicken","family":"creamy-pasta","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["chicken-breast",125],["mushrooms",75],["garlic",5],["pasta",90],["creme-fraiche",50],["chicken-stock",0.25],["spinach",25]],
+   "steps":["Cook the pasta as the packet says. Save a mug of the cooking water before draining.","Fry the sliced chicken in a large pan with a little oil for 5 minutes, then add the sliced mushrooms and garlic for another 4 minutes.","Crumble in the stock cube with a splash of pasta water, then stir in the crème fraîche and spinach until wilted.","Toss in the pasta, loosening with more pasta water if needed, and season well."]},
+
+  {"id":"chorizo-traybake","name":"Chicken & Chorizo Traybake","emoji":"🍗","type":"quick","mins":50,"protein":"chicken","family":"traybake","spicy":false,
+   "needs":[["oven","airfryer"]],
+   "ing":[["chicken-thighs",220],["chorizo",30],["potatoes",200],["peppers",80],["red-onion",50],["paprika",1]],
+   "steps":["Heat the oven to 200°C. Cut the potatoes into chunks, the peppers and onion into wedges and the chorizo into slices.","Toss everything with the paprika, a little oil, salt and pepper in a large roasting tin, sitting the chicken thighs skin side up on top.","Roast for 40–45 minutes until the chicken is golden and cooked through (air fryer: 180°C for 25–30 minutes, in batches if needed).","Spoon the red juices from the tin over everything to serve."]},
+
+  {"id":"tuna-pasta-bake","name":"Tuna Pasta Bake","emoji":"🐟","type":"quick","mins":35,"protein":"fish","family":"pasta-bake","spicy":false,
+   "needs":[["hob"],["oven","grill","airfryer"]],
+   "ing":[["pasta",90],["tuna",70],["sweetcorn",50],["passata",120],["cheddar",35]],
+   "steps":["Cook the pasta for 2 minutes less than the packet says, then drain.","Mix the pasta with the passata, drained tuna, drained sweetcorn and half the cheese. Season well.","Tip into an ovenproof dish and scatter over the rest of the cheese.","Bake at 200°C for 15 minutes, or grill for 5 minutes, until bubbling and golden."]},
+
+  {"id":"jacket-potatoes","name":"Jacket Potatoes with Beans & Cheese","emoji":"🥔","type":"quick","mins":20,"protein":"veg","family":"jacket","spicy":false,
+   "needs":[["microwave","oven","airfryer"]],
+   "ing":[["potatoes",300],["baked-beans",200],["cheddar",30],["butter",10]],
+   "steps":["Prick the potatoes all over with a fork.","Microwave on high for 8–10 minutes, turning halfway, until soft. For crispy skins, finish in the oven or air fryer at 200°C for 10 minutes. (Oven only: 1 hour at 200°C.)","Heat the beans in a pan or the microwave.","Split the potatoes, add butter, then top with beans and grated cheese."]},
+
+  {"id":"veggie-chilli","name":"Veggie Bean Chilli","emoji":"🌶️","type":"batch","mins":40,"protein":"veg","family":"chilli","spicy":true,
+   "needs":[["hob","slowcooker"]],
+   "ing":[["kidney-beans",100],["chickpeas",60],["peppers",80],["onion",75],["garlic",5],["chopped-tomatoes",200],["sweetcorn",50],["chilli-powder",2],["cumin",1],["veg-stock",0.25],["rice",75]],
+   "steps":["Chop the onion and peppers, and crush the garlic. Soften them in a large pan with a little oil for 8 minutes.","Stir in the chilli powder and cumin for a minute.","Add the tomatoes, drained beans, chickpeas and sweetcorn, and the crumbled stock cube with a splash of water.","Simmer for 25 minutes until thick. (Slow cooker: everything in on low for 6 hours.)","Cook the rice for tonight's portions and serve."]},
+
+  {"id":"chickpea-curry","name":"Chickpea & Spinach Curry","emoji":"🥥","type":"quick","mins":25,"protein":"veg","family":"curry","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["chickpeas",120],["spinach",40],["onion",60],["garlic",5],["curry-paste",30],["coconut-milk",100],["chopped-tomatoes",100],["rice",75]],
+   "steps":["Put the rice on to cook.","Soften the chopped onion and garlic in a pan with a little oil for 5 minutes, then stir in the curry paste for a minute.","Add the drained chickpeas, tomatoes and coconut milk and simmer for 15 minutes.","Stir in the spinach until it wilts, season, and serve with the rice."]},
+
+  {"id":"dhal","name":"Red Lentil Dhal & Naan","emoji":"🫘","type":"batch","mins":40,"protein":"veg","family":"dhal","spicy":false,
+   "needs":[["hob","slowcooker"]],
+   "ing":[["red-lentils",75],["onion",60],["garlic",5],["curry-powder",3],["chopped-tomatoes",100],["coconut-milk",80],["spinach",30],["naan",0.5]],
+   "steps":["Soften the chopped onion and garlic in a large pan with a little oil for 5 minutes, then stir in the curry powder for a minute.","Add the rinsed lentils, tomatoes, coconut milk and about 200ml water per two portions.","Simmer for 25 minutes, stirring often, until the lentils are soft and thick. Add a splash more water if it gets too dry. (Slow cooker: everything in on low for 5–6 hours.)","Stir in the spinach, season, and serve with warm naan."]},
+
+  {"id":"mac-cheese","name":"Mac & Cheese","emoji":"🧀","type":"quick","mins":30,"protein":"veg","family":"cheesy-pasta","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["macaroni",100],["cheddar",50],["milk",150],["butter",15],["plain-flour",15]],
+   "steps":["Cook the macaroni as the packet says, then drain.","Melt the butter in a pan, stir in the flour for a minute, then slowly whisk in the milk until thick and smooth.","Take off the heat and stir in most of the cheese until melted. Season well.","Stir in the pasta. For a crispy top, tip into a dish, add the last of the cheese and grill for 5 minutes."]},
+
+  {"id":"pesto-chicken-pasta","name":"Pesto Chicken Pasta","emoji":"🌿","type":"quick","mins":20,"protein":"chicken","family":"pesto","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["pasta",90],["chicken-breast",100],["pesto",35],["cherry-tomatoes",60]],
+   "steps":["Cook the pasta as the packet says. Save a mug of the cooking water before draining.","Fry the sliced chicken in a little oil for 6–7 minutes until golden and cooked through.","Add the halved tomatoes for 2 minutes until just softening.","Toss in the pasta and pesto with a splash of pasta water until glossy."]},
+
+  {"id":"thai-red-curry","name":"Thai Red Chicken Curry","emoji":"🍜","type":"quick","mins":30,"protein":"chicken","family":"curry","spicy":true,
+   "needs":[["hob"]],
+   "ing":[["chicken-breast",125],["thai-curry-paste",25],["coconut-milk",130],["peppers",60],["green-beans",40],["rice",75]],
+   "steps":["Put the rice on to cook.","Fry the curry paste in a little oil for a minute, then add the sliced chicken and cook for 5 minutes.","Pour in the coconut milk and add the sliced pepper. Simmer for 10 minutes.","Add the green beans for the last 4 minutes and serve with the rice."]},
+
+  {"id":"honey-garlic-chicken","name":"Honey Garlic Chicken & Rice","emoji":"🍯","type":"quick","mins":25,"protein":"chicken","family":"sticky","spicy":false,
+   "needs":[["hob","airfryer"]],
+   "ing":[["chicken-breast",150],["honey",15],["soy-sauce",15],["garlic",5],["broccoli",80],["rice",75]],
+   "steps":["Put the rice on to cook. Mix the honey, soy sauce and crushed garlic in a bowl.","Fry the diced chicken in a little oil for 6–7 minutes until golden (air fryer: 190°C for 10–12 minutes).","Pour the honey mix over the chicken and bubble for 2 minutes until sticky.","Steam or boil the broccoli for 4 minutes and serve everything together."]},
+
+  {"id":"roast-chicken","name":"Sunday Roast Chicken","emoji":"🍗","type":"quick","mins":100,"protein":"chicken","family":"roast","spicy":false,"sunday":true,
+   "needs":[["oven"],["hob"]],
+   "ing":[["whole-chicken",350],["potatoes",250],["carrot",100],["broccoli",80],["gravy-granules",8]],
+   "steps":["Heat the oven to 200°C. Rub the chicken with a little oil, salt and pepper and roast for 20 minutes per 500g plus 20 minutes, until the juices run clear.","Peel and halve the potatoes, boil for 8 minutes, drain and shake to rough up the edges. Roast in a hot tray with oil for 45–50 minutes, turning once.","Rest the chicken under foil for 15 minutes while you boil the carrots and broccoli.","Make the gravy with boiling water as the packet says. Carve and serve."]},
+
+  {"id":"halloumi-wraps","name":"Halloumi & Pepper Wraps","emoji":"🫓","type":"quick","mins":20,"protein":"veg","family":"wraps","spicy":false,
+   "needs":[["hob","grill","airfryer"]],
+   "ing":[["halloumi",75],["peppers",80],["red-onion",40],["tortilla-wraps",2],["natural-yogurt",30],["lettuce",0.1]],
+   "steps":["Slice the peppers and onion and fry in a little oil for 8 minutes until soft and charred.","Slice the halloumi and fry, grill or air fry for 2–3 minutes each side until golden.","Warm the wraps.","Fill with lettuce, the veg, halloumi and a spoon of yogurt."]},
+
+  {"id":"prawn-fried-rice","name":"Prawn Egg-Fried Rice","emoji":"🍤","type":"quick","mins":20,"protein":"fish","family":"fried-rice","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["rice",75],["prawns",60],["eggs",1],["peas",50],["spring-onions",15],["soy-sauce",15]],
+   "steps":["Cook the rice, then spread it out to steam dry (or cook it earlier in the day and chill it).","Fry the prawns in a hot pan with a little oil for 2–3 minutes until pink, then set aside.","Add the rice and peas to the pan and stir-fry for 4 minutes. Push to one side, crack in the eggs and scramble, then mix through.","Add the prawns, soy sauce and sliced spring onions and toss until piping hot."]},
+
+  {"id":"sausage-casserole","name":"Sausage & Bean Casserole","emoji":"🥘","type":"batch","mins":50,"protein":"pork","family":"sausage","spicy":false,
+   "needs":[["hob","slowcooker","oven"]],
+   "ing":[["sausages",150],["onion",60],["peppers",60],["chopped-tomatoes",200],["baked-beans",100],["paprika",1],["chicken-stock",0.25],["potatoes",200]],
+   "steps":["Brown the sausages in a large pan with a little oil, then cut each into three.","Add the chopped onion and peppers and cook for 5 minutes, then stir in the paprika.","Add the tomatoes, beans and crumbled stock cube with a splash of water. Simmer for 25 minutes. (Slow cooker or oven at 180°C: about 4 hours on low or 1 hour in the oven.)","Boil the potatoes in chunks for 15–20 minutes, or mash them, and serve with the casserole."]},
+
+  {"id":"pork-steaks","name":"Pork Steaks, Mash & Veg","emoji":"🥩","type":"quick","mins":30,"protein":"pork","family":"chops","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["pork-chops",150],["potatoes",200],["carrot",80],["peas",50],["gravy-granules",6],["butter",10]],
+   "steps":["Peel and chop the potatoes and boil for 15–20 minutes, then drain and mash with the butter.","Season the pork and fry in a hot pan with a little oil for 4–5 minutes each side until cooked through. Rest for 2 minutes.","Boil the sliced carrots for 8 minutes, adding the peas for the last 3.","Make the gravy with boiling water as the packet says, and serve."]},
+
+  {"id":"crispy-chicken-strips","name":"Crispy Chicken Strips & Wedges","emoji":"🍗","type":"quick","mins":35,"protein":"chicken","family":"chips","spicy":false,
+   "needs":[["oven","airfryer"],["hob","microwave"]],
+   "ing":[["chicken-breast",150],["breadcrumbs",25],["eggs",0.5],["plain-flour",10],["potatoes",250],["paprika",1],["sweetcorn",60]],
+   "steps":["Cut the potatoes into wedges, toss with oil, paprika and salt, and bake at 200°C for 35 minutes (air fryer: 190°C for 20 minutes).","Cut the chicken into strips. Dip in flour, then beaten egg, then breadcrumbs.","Bake the strips on an oiled tray for 18–20 minutes until golden and cooked through (air fryer: 190°C for 10–12 minutes).","Heat the sweetcorn and serve."]},
+
+  {"id":"steak-night","name":"Steak Night with Chips","emoji":"🥩","type":"quick","mins":25,"protein":"beef","family":"steak","spicy":false,
+   "needs":[["hob","grill"],["oven","airfryer"]],
+   "ing":[["steak",200],["oven-chips",200],["mushrooms",60],["cherry-tomatoes",60],["butter",10],["garlic",5]],
+   "steps":["Cook the chips in the oven or air fryer as the packet says.","Take the steaks out of the fridge 20 minutes before cooking. Season well and fry in a very hot pan for 2–4 minutes each side, depending on how you like it. Rest for 5 minutes.","In the same pan, fry the sliced mushrooms and tomatoes with the butter and garlic for 4 minutes.","Serve the steak with the chips and garlic mushrooms."]},
+
+  {"id":"baked-cod","name":"Lemon & Herb Baked Cod","emoji":"🐠","type":"quick","mins":30,"protein":"fish","family":"fish-potatoes","spicy":false,
+   "needs":[["oven","airfryer"],["hob"]],
+   "ing":[["cod",140],["potatoes",200],["green-beans",80],["lemon",0.25],["butter",10],["mixed-herbs",1]],
+   "steps":["Boil the potatoes in chunks for 15 minutes until tender.","Sit the cod on a lined tray, top with a little butter, the herbs and a squeeze of lemon, and bake at 200°C for 12–15 minutes (air fryer: 180°C for 10 minutes).","Boil or steam the green beans for 4 minutes.","Toss the potatoes in the rest of the butter and serve with the fish and lemon wedges."]},
+
+  {"id":"bean-burritos","name":"Spicy Bean Burritos","emoji":"🌯","type":"quick","mins":25,"protein":"veg","family":"wraps","spicy":true,
+   "needs":[["hob"]],
+   "ing":[["kidney-beans",100],["rice",50],["peppers",50],["onion",40],["fajita-seasoning",5],["tortilla-wraps",2],["cheddar",25]],
+   "steps":["Cook the rice.","Soften the chopped onion and pepper in a little oil for 6 minutes, then add the drained beans and fajita seasoning with a splash of water. Cook for 5 minutes, lightly mashing some of the beans.","Stir in the rice.","Warm the wraps, fill with the mix and grated cheese, and roll up. Toast seam side down in a dry pan for a crispy outside."]},
+
+  {"id":"spanish-chicken-rice","name":"Spanish Chicken & Rice","emoji":"🥘","type":"quick","mins":40,"protein":"chicken","family":"one-pot-rice","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["chicken-breast",125],["chorizo",25],["rice",80],["onion",50],["peppers",60],["chopped-tomatoes",100],["chicken-stock",0.5],["paprika",1],["peas",40]],
+   "steps":["Fry the diced chicken and sliced chorizo in a large pan for 5 minutes until golden.","Add the chopped onion and pepper and cook for 5 minutes, then stir in the paprika and rice.","Add the tomatoes and the stock cubes dissolved in about 200ml boiling water per two portions. Cover and simmer for 18–20 minutes until the rice is tender.","Stir in the peas for the last 3 minutes and serve."]},
+
+  {"id":"chicken-casserole","name":"Chicken & Veg Casserole","emoji":"🍲","type":"batch","mins":120,"protein":"chicken","family":"stew","spicy":false,
+   "needs":[["slowcooker","oven","hob"]],
+   "ing":[["chicken-thighs",220],["onion",60],["carrot",80],["potatoes",200],["chicken-stock",0.5],["plain-flour",10],["mixed-herbs",1]],
+   "steps":["Brown the chicken thighs in a large pan, then take them out.","Soften the chopped onion and carrot in the same pan for 5 minutes, then stir in the flour and herbs.","Add the potatoes in chunks and the stock cubes dissolved in enough boiling water to almost cover. Return the chicken.","Slow cooker: 6 hours on low. Oven: 1½ hours at 170°C with the lid on. Hob: simmer gently with the lid on for 1 hour."]},
+
+  {"id":"lamb-koftas","name":"Lamb Kofta Pittas","emoji":"🥙","type":"quick","mins":25,"protein":"lamb","family":"pitta","spicy":false,
+   "needs":[["grill","airfryer","hob"]],
+   "ing":[["lamb-mince",125],["cumin",1],["onion",25],["pitta",2],["natural-yogurt",40],["cucumber",0.15],["lettuce",0.1]],
+   "steps":["Mix the mince with the grated onion, cumin, salt and pepper. Shape into sausage shapes, about 3 per person.","Grill, air fry or fry for 10–12 minutes, turning, until browned and cooked through.","Grate a little cucumber into the yogurt with a pinch of salt.","Warm the pittas and fill with lettuce, koftas and the yogurt sauce."]},
+
+  {"id":"prawn-spaghetti","name":"Garlic Prawn Spaghetti","emoji":"🍤","type":"quick","mins":20,"protein":"fish","family":"seafood-pasta","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["spaghetti",90],["prawns",75],["garlic",7],["cherry-tomatoes",80],["spinach",30],["butter",10],["lemon",0.2]],
+   "steps":["Cook the spaghetti as the packet says. Save a mug of the cooking water before draining.","Melt the butter with a little oil and fry the sliced garlic for 1 minute, then add the halved tomatoes for 3 minutes.","Add the prawns and cook for 2–3 minutes until pink, then stir in the spinach.","Toss in the spaghetti with a squeeze of lemon and a splash of pasta water."]},
+
+  {"id":"naan-pizzas","name":"Naan Bread Pizzas","emoji":"🍕","type":"quick","mins":15,"protein":"veg","family":"pizza","spicy":false,
+   "needs":[["oven","airfryer","grill"]],
+   "ing":[["naan",1],["passata",50],["mozzarella",60],["peppers",40],["sweetcorn",30],["mixed-herbs",0.5]],
+   "steps":["Heat the oven to 220°C.","Spread each naan with passata and sprinkle with the herbs.","Top with torn mozzarella, sliced pepper and sweetcorn.","Bake for 8–10 minutes until bubbling (air fryer: 180°C for 5–6 minutes, one at a time; grill: 4–5 minutes)."]},
+
+  {"id":"sticky-beef-bowls","name":"Sticky Beef Rice Bowls","emoji":"🍚","type":"quick","mins":20,"protein":"beef","family":"sticky","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["beef-mince",125],["garlic",5],["soy-sauce",20],["honey",10],["rice",75],["broccoli",80],["spring-onions",10]],
+   "steps":["Put the rice on to cook.","Fry the mince in a hot pan until browned and crispy at the edges, then add the crushed garlic for a minute.","Stir in the soy sauce and honey and bubble until sticky.","Steam or boil the broccoli for 4 minutes. Serve the beef over rice with the broccoli and sliced spring onions."]},
+
+  {"id":"breakfast-for-dinner","name":"Breakfast for Dinner","emoji":"🍳","type":"quick","mins":25,"protein":"pork","family":"breakfast","spicy":false,
+   "needs":[["hob","grill"]],
+   "ing":[["sausages",114],["bacon",50],["eggs",1],["baked-beans",100],["mushrooms",40],["white-bread",80]],
+   "steps":["Grill or fry the sausages for 12–15 minutes, turning, and add the bacon for the last 5 minutes.","Fry the sliced mushrooms in a little oil for 4 minutes.","Heat the beans and make the toast.","Fry the eggs and serve everything together."]},
+
+  {"id":"bacon-carbonara","name":"Bacon & Pea Carbonara","emoji":"🥓","type":"quick","mins":20,"protein":"pork","family":"creamy-pasta","spicy":false,
+   "needs":[["hob"]],
+   "ing":[["spaghetti",90],["bacon",50],["eggs",1],["cheddar",20],["peas",40]],
+   "steps":["Cook the spaghetti, adding the peas for the last 3 minutes. Save a mug of the cooking water before draining.","Fry the chopped bacon until crispy.","Beat the eggs with most of the grated cheese and plenty of black pepper.","Take the pan off the heat, toss the spaghetti and peas with the bacon, then quickly stir in the egg mix with a splash of pasta water until creamy (not scrambled). Top with the rest of the cheese."]},
+
+  {"id":"toad-in-the-hole","name":"Toad in the Hole","emoji":"🌭","type":"quick","mins":50,"protein":"pork","family":"sausage","spicy":false,
+   "needs":[["oven"],["hob","microwave"]],
+   "ing":[["sausages",150],["plain-flour",40],["eggs",1],["milk",75],["gravy-granules",6],["peas",60]],
+   "steps":["Heat the oven to 220°C. Put the sausages in a roasting tin with a little oil and cook for 10 minutes.","Whisk the flour, eggs, milk and a pinch of salt into a smooth batter.","Carefully pour the batter around the sausages in the hot tin and bake for 25–30 minutes until risen and golden. Don't open the oven door early.","Cook the peas, make the gravy as the packet says, and serve."]},
+
+  {"id":"enchiladas","name":"Chicken Enchiladas","emoji":"🌮","type":"batch","mins":45,"protein":"chicken","family":"wraps","spicy":false,
+   "needs":[["hob"],["oven"]],
+   "ing":[["chicken-breast",120],["peppers",60],["onion",40],["fajita-seasoning",5],["tortilla-wraps",2],["passata",80],["cheddar",30]],
+   "steps":["Fry the diced chicken, onion and peppers in a little oil for 8 minutes until cooked through, then stir in the fajita seasoning and a third of the passata.","Fill the wraps with the mix, roll them up and pack them seam side down into an ovenproof dish.","Pour over the rest of the passata and scatter with the cheese.","Bake at 200°C for 20 minutes until bubbling. Keep half back for the leftovers night, or assemble a second dish and fridge it to bake fresh."]},
+
+  {"id":"gnocchi-bake","name":"Cheesy Tomato Gnocchi Bake","emoji":"🍅","type":"quick","mins":25,"protein":"veg","family":"pasta-bake","spicy":false,
+   "needs":[["hob"],["oven","grill","airfryer"]],
+   "ing":[["gnocchi",125],["passata",120],["mozzarella",50],["spinach",25],["garlic",3],["mixed-herbs",0.5]],
+   "steps":["Fry the crushed garlic in a little oil for a minute, then add the passata and herbs and simmer for 5 minutes.","Stir in the gnocchi and spinach and cook for 3–4 minutes until the gnocchi are soft.","Tip into an ovenproof dish and top with torn mozzarella.","Bake at 200°C for 10–12 minutes, or grill for 5 minutes, until golden and bubbling."]}
+]

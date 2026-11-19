@@ -1,0 +1,3867 @@
+{
+"aisles": [
+"Fruit & veg",
+"Meat & fish",
+"Dairy & eggs",
+"Bakery",
+"Frozen",
+"Pasta, rice & grains",
+"Tins & jars",
+"Sauces & seasoning",
+"Herbs & spices"
+],
+"items": [
+{
+"key": "onion",
+"name": "Brown onions",
+"search": "brown onions",
+"unit": "g",
+"each": 150,
+"show": [
+150,
+"onion",
+"onions"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"onion"
+],
+"exc": [
+"red",
+"spring",
+"rings",
+"pickled",
+"fried",
+"crispy",
+"gravy",
+"marmalade",
+"bhaji",
+"powder",
+"granules",
+"soup",
+"chutney",
+"salt",
+"sauce",
+"crisps",
+"relish",
+"shallot"
+],
+"avoid": [],
+"sample": [
+1000,
+0.95
+]
+},
+{
+"key": "red-onion",
+"name": "Red onions",
+"search": "red onions",
+"unit": "g",
+"each": 150,
+"show": [
+150,
+"red onion",
+"red onions"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"red",
+"onion"
+],
+"exc": [
+"pickled",
+"chutney",
+"marmalade",
+"crisps",
+"relish",
+"spring"
+],
+"avoid": [],
+"sample": [
+450,
+0.75
+]
+},
+{
+"key": "garlic",
+"name": "Garlic",
+"search": "garlic bulb",
+"unit": "g",
+"each": 50,
+"show": [
+5,
+"clove",
+"cloves"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"garlic"
+],
+"exc": [
+"bread",
+"puree",
+"paste",
+"granules",
+"powder",
+"salt",
+"sauce",
+"mayo",
+"butter",
+"chicken",
+"prawn",
+"dough",
+"ball",
+"naan",
+"pizza",
+"mushroom",
+"oil",
+"dip",
+"pickled",
+"black",
+"flakes",
+"crisps",
+"smoked",
+"wild",
+"chopped",
+"minced",
+"frozen",
+"grinder"
+],
+"avoid": [],
+"sample": [
+200,
+0.85
+]
+},
+{
+"key": "carrot",
+"name": "Carrots",
+"search": "carrots",
+"unit": "g",
+"each": 100,
+"show": [
+100,
+"carrot",
+"carrots"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"carrot"
+],
+"exc": [
+"cake",
+"juice",
+"soup",
+"muffin",
+"coriander",
+"baby food",
+"pouch",
+"frozen",
+"swede",
+"peas",
+"batons",
+"crisps",
+"orange"
+],
+"avoid": [],
+"sample": [
+1000,
+0.55
+]
+},
+{
+"key": "potatoes",
+"name": "Potatoes",
+"search": "white potatoes",
+"unit": "g",
+"each": 250,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"potato"
+],
+"exc": [
+"sweet",
+"mash",
+"wedges",
+"waffle",
+"salad",
+"crisps",
+"chips",
+"croquette",
+"hash",
+"rosti",
+"roast",
+"gratin",
+"dauphinoise",
+"skins",
+"smiles",
+"microwave",
+"frozen",
+"jacket potato with",
+"filled",
+"bake",
+"cakes",
+"fries",
+"scallops",
+"farls"
+],
+"avoid": [],
+"sample": [
+2000,
+1.39
+]
+},
+{
+"key": "peppers",
+"name": "Peppers",
+"search": "mixed peppers",
+"unit": "g",
+"each": 160,
+"show": [
+160,
+"pepper",
+"peppers"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"pepper"
+],
+"exc": [
+"peppercorn",
+"black",
+"sauce",
+"stuffed",
+"jalapeno",
+"chilli",
+"roasted",
+"jar",
+"pickled",
+"flakes",
+"crisps",
+"seasoning",
+"salami",
+"piquante",
+"dip",
+"hot",
+"ground",
+"mill",
+"grinder",
+"frozen",
+"steak",
+"mackerel",
+"cracked",
+"white pepper"
+],
+"avoid": [],
+"sample": [
+480,
+1.39
+]
+},
+{
+"key": "broccoli",
+"name": "Broccoli",
+"search": "broccoli",
+"unit": "g",
+"each": 350,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"broccoli"
+],
+"exc": [
+"cheese",
+"bake",
+"soup",
+"salad",
+"frozen",
+"rice",
+"pasta",
+"stir fry",
+"purple sprouting",
+"tenderstem",
+"cauliflower",
+"mix"
+],
+"avoid": [],
+"sample": [
+360,
+0.69
+]
+},
+{
+"key": "mushrooms",
+"name": "Mushrooms",
+"search": "closed cup mushrooms",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"mushroom"
+],
+"exc": [
+"soup",
+"sauce",
+"dried",
+"pate",
+"risotto",
+"stroganoff",
+"garlic",
+"pie",
+"tin",
+"stuffed",
+"breaded",
+"enoki",
+"shiitake",
+"oyster",
+"porcini",
+"frozen",
+"pizza",
+"bake",
+"burger",
+"wellington",
+"ketchup",
+"sliced in",
+"chestnut"
+],
+"avoid": [
+"mushrooms"
+],
+"sample": [
+300,
+0.99
+]
+},
+{
+"key": "spinach",
+"name": "Spinach",
+"search": "baby spinach",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"spinach"
+],
+"exc": [
+"ricotta",
+"pasta",
+"tortellini",
+"curry",
+"pie",
+"quiche",
+"wrap",
+"dip",
+"pakora",
+"bhaji",
+"cannelloni",
+"pesto",
+"frozen",
+"creamed",
+"salad bowl",
+"ravioli"
+],
+"avoid": [],
+"sample": [
+240,
+1.25
+]
+},
+{
+"key": "cherry-tomatoes",
+"name": "Cherry tomatoes",
+"search": "cherry tomatoes",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"tomato"
+],
+"any": [
+"cherry",
+"salad"
+],
+"exc": [
+"tin",
+"tinned",
+"chopped",
+"sun",
+"dried",
+"sauce",
+"puree",
+"soup",
+"ketchup",
+"pasta",
+"passata",
+"paste",
+"plant",
+"seed",
+"grow",
+"pizza",
+"crisps",
+"pesto",
+"roasted",
+"jar",
+"can",
+"juice"
+],
+"avoid": [],
+"sample": [
+250,
+0.89
+]
+},
+{
+"key": "lettuce",
+"name": "Iceberg lettuce",
+"search": "iceberg lettuce",
+"unit": "each",
+"each": 550,
+"show": [
+1,
+"iceberg lettuce",
+"iceberg lettuces"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"lettuce"
+],
+"exc": [
+"seeds",
+"grow",
+"sandwich",
+"wrap",
+"salad kit"
+],
+"avoid": [],
+"sample": [
+1,
+0.65
+]
+},
+{
+"key": "cucumber",
+"name": "Cucumber",
+"search": "cucumber",
+"unit": "each",
+"each": 350,
+"show": [
+1,
+"cucumber",
+"cucumbers"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"cucumber"
+],
+"exc": [
+"pickled",
+"dip",
+"tzatziki",
+"raita",
+"water",
+"drink",
+"gin",
+"seeds",
+"grow",
+"sandwich",
+"relish",
+"yoghurt",
+"yogurt",
+"mint",
+"sticks",
+"gherkin"
+],
+"avoid": [],
+"sample": [
+1,
+0.75
+]
+},
+{
+"key": "lemon",
+"name": "Lemons",
+"search": "lemons",
+"unit": "each",
+"each": 110,
+"show": [
+1,
+"lemon",
+"lemons"
+],
+"aisle": "Fruit & veg",
+"inc": [
+"lemon"
+],
+"exc": [
+"juice",
+"curd",
+"cake",
+"drink",
+"squash",
+"tart",
+"pepper",
+"sole",
+"grass",
+"lemonade",
+"tea",
+"meringue",
+"drizzle",
+"biscuit",
+"sauce",
+"sorbet",
+"yogurt",
+"yoghurt",
+"mousse",
+"slices",
+"zest",
+"sherbet",
+"sweets",
+"flavour",
+"cleaner",
+"washing",
+"gin",
+"water",
+"lime",
+"chicken",
+"sole",
+"cheesecake",
+"pudding"
+],
+"avoid": [],
+"sample": [
+4,
+1.1
+]
+},
+{
+"key": "spring-onions",
+"name": "Spring onions",
+"search": "spring onions",
+"unit": "g",
+"each": 100,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"spring",
+"onion"
+],
+"exc": [
+"crisps",
+"dip",
+"noodles",
+"pot",
+"sauce",
+"rolls"
+],
+"avoid": [],
+"sample": [
+100,
+0.55
+]
+},
+{
+"key": "green-beans",
+"name": "Green beans",
+"search": "fine green beans",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"bean"
+],
+"any": [
+"green",
+"fine"
+],
+"exc": [
+"baked",
+"tin",
+"coffee",
+"jelly",
+"kidney",
+"broad",
+"edamame",
+"runner",
+"frozen",
+"soya",
+"butter bean",
+"cannellini",
+"mung",
+"salad",
+"sprouts"
+],
+"avoid": [],
+"sample": [
+220,
+0.95
+]
+},
+{
+"key": "stirfry-veg",
+"name": "Stir fry vegetables",
+"search": "stir fry vegetables",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Fruit & veg",
+"inc": [
+"stir fry"
+],
+"exc": [
+"sauce",
+"noodles",
+"oil",
+"kit",
+"chicken",
+"prawn",
+"beef",
+"pork",
+"pan",
+"wok",
+"frozen",
+"rice",
+"tofu"
+],
+"avoid": [],
+"sample": [
+300,
+1.1
+]
+},
+{
+"key": "beef-mince",
+"name": "Beef mince",
+"search": "beef mince",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"beef",
+"mince"
+],
+"exc": [
+"lamb",
+"pork",
+"turkey",
+"meat free",
+"plant",
+"vegetarian",
+"meatball",
+"burger",
+"cooked",
+"chilli",
+"bolognese",
+"quorn",
+"lasagne",
+"pie",
+"pies",
+"vegan",
+"soya",
+"ready meal",
+"frozen",
+"pasty",
+"kebab",
+"sausage",
+"stock",
+"cottage"
+],
+"avoid": [
+"meat",
+"beef"
+],
+"sample": [
+500,
+2.89
+]
+},
+{
+"key": "diced-beef",
+"name": "Diced beef",
+"search": "diced beef",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"beef"
+],
+"any": [
+"diced",
+"stewing",
+"casserole steak",
+"braising"
+],
+"exc": [
+"cooked",
+"pie",
+"ready",
+"pasty",
+"stew mix",
+"sauce",
+"seasoning",
+"gravy",
+"frozen",
+"vegetable",
+"chunks in",
+"bourguignon",
+"plant",
+"stock"
+],
+"avoid": [
+"meat",
+"beef"
+],
+"sample": [
+400,
+4.1
+]
+},
+{
+"key": "steak",
+"name": "Sirloin steak",
+"search": "sirloin steak",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"steak"
+],
+"any": [
+"sirloin",
+"rump",
+"ribeye",
+"rib eye"
+],
+"exc": [
+"pie",
+"pudding",
+"gammon",
+"sauce",
+"seasoning",
+"cooked",
+"mince",
+"burger",
+"bake",
+"pasty",
+"sandwich",
+"crisps",
+"frozen",
+"pork",
+"salmon",
+"tuna",
+"cauliflower"
+],
+"avoid": [
+"meat",
+"beef"
+],
+"sample": [
+340,
+6.5
+]
+},
+{
+"key": "chicken-breast",
+"name": "Chicken breast",
+"search": "chicken breast fillets",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"chicken",
+"breast"
+],
+"exc": [
+"cooked",
+"sliced",
+"slices",
+"roast",
+"bites",
+"tikka",
+"kiev",
+"goujon",
+"nugget",
+"dipper",
+"escalope",
+"bbq",
+"peri",
+"katsu",
+"wafer",
+"strips",
+"seasoned",
+"garlic",
+"coated",
+"breaded",
+"stuffed",
+"wrapped",
+"smoked",
+"chargrilled",
+"sandwich",
+"pieces in",
+"frozen",
+"fajita",
+"lemon",
+"honey",
+"sweet chilli",
+"cajun",
+"piri",
+"mini fillets in",
+"marinated",
+"tandoori",
+"southern fried",
+"plant",
+"vegan",
+"meat free",
+"quorn"
+],
+"avoid": [
+"meat",
+"chicken"
+],
+"sample": [
+650,
+4.75
+]
+},
+{
+"key": "chicken-thighs",
+"name": "Chicken thighs",
+"search": "chicken thighs",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"chicken",
+"thigh"
+],
+"exc": [
+"cooked",
+"tikka",
+"bbq",
+"peri",
+"seasoned",
+"coated",
+"breaded",
+"katsu",
+"frozen",
+"marinated",
+"piri",
+"garlic",
+"lemon",
+"honey",
+"cajun",
+"tandoori",
+"smoky",
+"sticky",
+"plant",
+"vegan"
+],
+"avoid": [
+"meat",
+"chicken"
+],
+"sample": [
+1000,
+3.2
+]
+},
+{
+"key": "whole-chicken",
+"name": "Whole chicken",
+"search": "whole chicken",
+"unit": "g",
+"each": 1500,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"whole",
+"chicken"
+],
+"exc": [
+"cooked",
+"rotisserie",
+"seasoned",
+"stuffed",
+"roasted",
+"frozen",
+"spatchcock",
+"peri",
+"bbq",
+"lemon",
+"garlic",
+"stock",
+"soup",
+"plant"
+],
+"avoid": [
+"meat",
+"chicken"
+],
+"sample": [
+1500,
+4.5
+]
+},
+{
+"key": "sausages",
+"name": "Pork sausages",
+"search": "pork sausages",
+"unit": "g",
+"each": 57,
+"show": [
+57,
+"sausage",
+"sausages"
+],
+"aisle": "Meat & fish",
+"inc": [
+"sausage"
+],
+"exc": [
+"roll",
+"vegetarian",
+"meat free",
+"plant",
+"chicken",
+"beef",
+"cooked",
+"cocktail",
+"frankfurter",
+"hot dog",
+"casserole",
+"mash",
+"skinless",
+"vegan",
+"quorn",
+"linda",
+"rolls",
+"bites",
+"snack",
+"stuffing",
+"chorizo",
+"salami",
+"cumberland ring",
+"beans",
+"pizza",
+"seasoning",
+"mix",
+"jumbo hot",
+"frozen",
+"turkey",
+"lamb",
+"venison",
+"gluten free"
+],
+"avoid": [
+"meat",
+"pork"
+],
+"sample": [
+454,
+1.85
+]
+},
+{
+"key": "bacon",
+"name": "Smoked back bacon",
+"search": "smoked back bacon",
+"unit": "g",
+"each": null,
+"show": [
+25,
+"rasher",
+"rashers"
+],
+"aisle": "Meat & fish",
+"inc": [
+"bacon"
+],
+"exc": [
+"lardons",
+"crisps",
+"fries",
+"cooked",
+"bits",
+"sandwich",
+"roll",
+"streaky",
+"frazzles",
+"flavour",
+"rashers in",
+"turkey",
+"vegetarian",
+"plant",
+"vegan",
+"medallions",
+"joint",
+"grill",
+"jam",
+"sauce",
+"pizza",
+"quiche",
+"seasoning",
+"wrapped",
+"bites",
+"frozen"
+],
+"avoid": [
+"meat",
+"pork"
+],
+"sample": [
+300,
+2.1
+]
+},
+{
+"key": "pork-chops",
+"name": "Pork loin steaks",
+"search": "pork loin steaks",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"pork"
+],
+"any": [
+"steak",
+"chop",
+"loin"
+],
+"exc": [
+"sausage",
+"mince",
+"belly",
+"gammon",
+"pie",
+"pulled",
+"cooked",
+"shoulder",
+"joint",
+"crackling",
+"scratchings",
+"bbq",
+"seasoned",
+"marinated",
+"frozen",
+"medallions in",
+"sauce",
+"stuffed",
+"ribs",
+"tenderloin",
+"fillet"
+],
+"avoid": [
+"meat",
+"pork"
+],
+"sample": [
+500,
+3.4
+]
+},
+{
+"key": "pork-shoulder",
+"name": "Pork shoulder joint",
+"search": "pork shoulder joint",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"pork",
+"shoulder"
+],
+"exc": [
+"pulled",
+"cooked",
+"bbq",
+"sauce",
+"steaks",
+"diced",
+"sliced",
+"frozen",
+"crackling",
+"stuffed"
+],
+"avoid": [
+"meat",
+"pork"
+],
+"sample": [
+1500,
+6.0
+]
+},
+{
+"key": "lamb-mince",
+"name": "Lamb mince",
+"search": "lamb mince",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"lamb",
+"mince"
+],
+"exc": [
+"beef",
+"pie",
+"kofta",
+"burger",
+"pasty",
+"cooked",
+"frozen",
+"plant",
+"vegan",
+"mint sauce",
+"pork",
+"seasoning"
+],
+"avoid": [
+"meat",
+"lamb"
+],
+"sample": [
+500,
+4.75
+]
+},
+{
+"key": "chorizo",
+"name": "Chorizo",
+"search": "chorizo ring",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"chorizo"
+],
+"exc": [
+"slices",
+"sliced",
+"pizza",
+"crisps",
+"sandwich",
+"bites",
+"vegetarian",
+"plant",
+"vegan",
+"sausages",
+"chicken",
+"paella",
+"rice",
+"meal",
+"frozen",
+"snack",
+"tapas",
+"salad",
+"mini"
+],
+"avoid": [
+"meat",
+"pork"
+],
+"sample": [
+225,
+2.3
+]
+},
+{
+"key": "salmon",
+"name": "Salmon fillets",
+"search": "salmon fillets",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"salmon"
+],
+"exc": [
+"smoked",
+"flakes",
+"fishcake",
+"fish cake",
+"pate",
+"tin",
+"tinned",
+"pink",
+"red",
+"en croute",
+"oak",
+"sauce",
+"sushi",
+"frozen",
+"bites",
+"coated",
+"lemon",
+"garlic",
+"teriyaki",
+"honey",
+"sweet chilli",
+"plant",
+"vegan",
+"trimmings",
+"oil",
+"pet",
+"cat",
+"dog",
+"gravad",
+"roast",
+"poached",
+"cooked",
+"kiln",
+"katsu",
+"dill",
+"pesto",
+"steaks in"
+],
+"avoid": [
+"fish"
+],
+"sample": [
+240,
+4.0
+]
+},
+{
+"key": "cod",
+"name": "Cod fillets",
+"search": "cod fillets",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"cod"
+],
+"exc": [
+"battered",
+"breaded",
+"fishcake",
+"fish cake",
+"fingers",
+"mornay",
+"bites",
+"smoked",
+"sauce",
+"goujon",
+"crumb",
+"frozen",
+"roe",
+"liver",
+"oil",
+"coated",
+"tempura",
+"pie",
+"pet",
+"cat",
+"dog",
+"lemon",
+"garlic",
+"cheese",
+"parsley",
+"loin in",
+"chorizo"
+],
+"avoid": [
+"fish"
+],
+"sample": [
+280,
+4.5
+]
+},
+{
+"key": "prawns",
+"name": "King prawns",
+"search": "raw king prawns",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Meat & fish",
+"inc": [
+"prawn"
+],
+"exc": [
+"cocktail",
+"cracker",
+"toast",
+"sandwich",
+"tempura",
+"breaded",
+"sushi",
+"sauce",
+"ring",
+"crisps",
+"salad",
+"dumpling",
+"gyoza",
+"noodles",
+"rice",
+"paella",
+"curry",
+"bhuna",
+"korma",
+"plant",
+"vegan",
+"seasoning",
+"garlic butter",
+"chilli",
+"tails in",
+"jumbo breaded",
+"platter",
+"spring roll",
+"bites",
+"katsu",
+"mayo"
+],
+"avoid": [
+"fish"
+],
+"sample": [
+225,
+3.25
+]
+},
+{
+"key": "tuna",
+"name": "Tinned tuna",
+"search": "tuna chunks in spring water",
+"unit": "g",
+"each": 145,
+"show": [
+145,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"tuna"
+],
+"exc": [
+"steak",
+"sandwich",
+"pasta",
+"salad",
+"sweetcorn",
+"mayo",
+"chilli",
+"lemon",
+"tomato",
+"pate",
+"pet",
+"cat",
+"dog",
+"oil and",
+"pouch",
+"jar",
+"fillets in",
+"olive",
+"sunflower",
+"bake",
+"crisps",
+"rice",
+"kit",
+"teriyaki",
+"flavour",
+"spread",
+"lunch"
+],
+"avoid": [
+"fish"
+],
+"sample": [
+145,
+0.85
+]
+},
+{
+"key": "fish-fingers",
+"name": "Fish fingers",
+"search": "fish fingers",
+"unit": "g",
+"each": 28,
+"show": [
+28,
+"fish finger",
+"fish fingers"
+],
+"aisle": "Frozen",
+"inc": [
+"fish",
+"finger"
+],
+"exc": [
+"plant",
+"vegan",
+"sandwich",
+"mini",
+"bites",
+"vegetarian",
+"quorn"
+],
+"avoid": [
+"fish"
+],
+"sample": [
+300,
+1.75
+]
+},
+{
+"key": "eggs",
+"name": "Eggs",
+"search": "free range eggs",
+"unit": "each",
+"each": 58,
+"show": [
+1,
+"egg",
+"eggs"
+],
+"aisle": "Dairy & eggs",
+"inc": [
+"egg"
+],
+"exc": [
+"chocolate",
+"easter",
+"noodle",
+"pasta",
+"mayo",
+"scotch",
+"sandwich",
+"custard",
+"boiled",
+"liquid",
+"quail",
+"duck",
+"white",
+"cream egg",
+"creme",
+"crème",
+"free from",
+"plant",
+"vegan",
+"fried rice",
+"nog",
+"mini egg",
+"sauce",
+"salad",
+"biscuits",
+"cups",
+"bites",
+"free range eggs pasta",
+"egg replacer",
+"whites",
+"dried",
+"powder",
+"omelette",
+"pots"
+],
+"avoid": [],
+"sample": [
+6,
+1.55
+]
+},
+{
+"key": "milk",
+"name": "Semi-skimmed milk",
+"search": "semi skimmed milk",
+"unit": "ml",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"milk"
+],
+"exc": [
+"chocolate",
+"milkshake",
+"coconut",
+"oat",
+"soya",
+"almond",
+"powder",
+"condensed",
+"evaporated",
+"goat",
+"lactofree",
+"lactose",
+"flavoured",
+"strawberry",
+"banana",
+"rice",
+"cream",
+"biscuit",
+"choc",
+"tea",
+"coffee",
+"bar",
+"kids",
+"toddler",
+"formula",
+"growing up",
+"drink",
+"protein",
+"organic",
+"whole",
+"skimmed milk powder",
+"1%",
+"filtered",
+"jersey"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+2272,
+1.55
+]
+},
+{
+"key": "butter",
+"name": "Butter",
+"search": "salted butter",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"butter"
+],
+"exc": [
+"peanut",
+"almond",
+"cashew",
+"cocoa",
+"shea",
+"bean",
+"garlic",
+"chicken",
+"croissant",
+"biscuit",
+"shortbread",
+"cookie",
+"popcorn",
+"bread",
+"toffee",
+"sauce",
+"icing",
+"buttermilk",
+"nut",
+"chocolate",
+"fudge",
+"cream",
+"pastry",
+"scotch",
+"crumpet",
+"cake",
+"flapjack",
+"herb",
+"plant",
+"vegan",
+"oil",
+"prawns",
+"lobster",
+"seed",
+"menthol",
+"sweets",
+"mint",
+"caramel",
+"balm",
+"lotion",
+"body",
+"spreadable lighter",
+"brandy",
+"fish"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+250,
+2.05
+]
+},
+{
+"key": "cheddar",
+"name": "Mature cheddar",
+"search": "mature cheddar",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"cheddar"
+],
+"exc": [
+"slices",
+"sliced",
+"crackers",
+"biscuit",
+"snack",
+"spread",
+"sauce",
+"string",
+"twists",
+"pasty",
+"bites",
+"crisps",
+"straws",
+"onion",
+"chutney",
+"pickle",
+"sandwich",
+"ploughman",
+"scone",
+"bread",
+"wraps",
+"burger",
+"macaroni",
+"pie",
+"popcorn",
+"oatcakes",
+"puffs",
+"cubes",
+"mini",
+"babybel",
+"dairylea",
+"lunchbox",
+"vegan",
+"plant",
+"free from",
+"pizza",
+"quiche",
+"jalapeno",
+"chilli",
+"smoked",
+"truffle",
+"cranberry",
+"red leicester"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+400,
+3.2
+]
+},
+{
+"key": "mozzarella",
+"name": "Mozzarella",
+"search": "mozzarella",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"mozzarella"
+],
+"exc": [
+"sticks",
+"pizza",
+"dippers",
+"bites",
+"tomato",
+"sandwich",
+"pearls",
+"burrata",
+"vegan",
+"plant",
+"garlic bread",
+"salad",
+"pasta",
+"arancini",
+"wrap",
+"panini",
+"melt",
+"basil",
+"chicken",
+"sun",
+"wedges",
+"frozen",
+"free from"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+125,
+0.85
+]
+},
+{
+"key": "double-cream",
+"name": "Double cream",
+"search": "double cream",
+"unit": "ml",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"double",
+"cream"
+],
+"exc": [
+"ice",
+"alternative",
+"plant",
+"oat",
+"spray",
+"squirty",
+"aerosol",
+"dessert",
+"cake",
+"choc",
+"chocolate",
+"trifle",
+"scone",
+"eclair",
+"profiterole",
+"meringue",
+"donut",
+"doughnut",
+"free from",
+"lactose",
+"lighter",
+"clotted",
+"brandy",
+"vanilla"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+300,
+1.2
+]
+},
+{
+"key": "creme-fraiche",
+"name": "Crème fraîche",
+"search": "creme fraiche",
+"unit": "ml",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"fra"
+],
+"any": [
+"creme",
+"crème"
+],
+"exc": [
+"dip",
+"garlic",
+"herb",
+"plant",
+"vegan",
+"alternative",
+"free from",
+"sauce"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+300,
+1.15
+]
+},
+{
+"key": "natural-yogurt",
+"name": "Natural yogurt",
+"search": "natural yogurt",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"natural"
+],
+"any": [
+"yogurt",
+"yoghurt"
+],
+"exc": [
+"coconut",
+"kids",
+"drink",
+"raisins",
+"fruit",
+"strawberry",
+"vanilla",
+"honey",
+"granola",
+"coated",
+"bites",
+"plant",
+"vegan",
+"oat",
+"soya",
+"alternative",
+"free from",
+"mango",
+"lemon",
+"cherry",
+"peach",
+"raspberry",
+"blueberry",
+"pots",
+"multipack",
+"bio live honey",
+"high protein drink"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+500,
+0.95
+]
+},
+{
+"key": "halloumi",
+"name": "Halloumi",
+"search": "halloumi",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Dairy & eggs",
+"inc": [
+"halloumi"
+],
+"exc": [
+"fries",
+"burger",
+"bites",
+"sticks",
+"kebab",
+"wrap",
+"salad",
+"plant",
+"vegan",
+"alternative",
+"chilli",
+"sweet chilli",
+"wedges",
+"frozen",
+"flatbread",
+"sandwich",
+"pizza",
+"light"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+225,
+2.5
+]
+},
+{
+"key": "tortilla-wraps",
+"name": "Tortilla wraps",
+"search": "plain tortilla wraps",
+"unit": "each",
+"each": 62,
+"show": [
+1,
+"wrap",
+"wraps"
+],
+"aisle": "Bakery",
+"inc": [
+"wrap"
+],
+"exc": [
+"chicken",
+"sandwich",
+"kit",
+"box",
+"sauce",
+"foil",
+"bag",
+"cling",
+"beef",
+"prawn",
+"falafel",
+"sushi",
+"lettuce",
+"rice paper",
+"gluten free",
+"low carb",
+"seeded",
+"wholemeal",
+"spinach",
+"sweet potato",
+"tomato",
+"mini",
+"cheese",
+"ham",
+"egg",
+"chips",
+"crisps",
+"paper",
+"gift",
+"halloumi",
+"bean",
+"pork"
+],
+"avoid": [],
+"sample": [
+8,
+1.15
+]
+},
+{
+"key": "burger-buns",
+"name": "Burger buns",
+"search": "burger buns",
+"unit": "each",
+"each": 60,
+"show": [
+1,
+"bun",
+"buns"
+],
+"aisle": "Bakery",
+"inc": [
+"bun"
+],
+"exc": [
+"hot cross",
+"hot dog",
+"iced",
+"cream",
+"chelsea",
+"bao",
+"fruit",
+"cinnamon",
+"teacake",
+"bath",
+"gluten free",
+"sticky",
+"bunny",
+"rabbit",
+"bunting",
+"bunch",
+"finger",
+"chocolate",
+"choc",
+"custard",
+"raisin",
+"sultana",
+"belgian",
+"brioche hot dog",
+"sub",
+"subs",
+"mini"
+],
+"avoid": [],
+"sample": [
+6,
+0.95
+]
+},
+{
+"key": "naan",
+"name": "Naan breads",
+"search": "plain naan bread",
+"unit": "each",
+"each": 130,
+"show": [
+1,
+"naan",
+"naans"
+],
+"aisle": "Bakery",
+"inc": [
+"naan"
+],
+"exc": [
+"chips",
+"crisps",
+"peshwari",
+"pizza",
+"mini",
+"gluten free",
+"cheese",
+"chilli"
+],
+"avoid": [],
+"sample": [
+2,
+1.0
+]
+},
+{
+"key": "pitta",
+"name": "Pitta breads",
+"search": "white pitta bread",
+"unit": "each",
+"each": 60,
+"show": [
+1,
+"pitta",
+"pittas"
+],
+"aisle": "Bakery",
+"inc": [
+"pitta"
+],
+"exc": [
+"chips",
+"crisps",
+"mini",
+"gluten free",
+"wholemeal",
+"houmous",
+"hummus",
+"pocket",
+"snack",
+"bites",
+"seeded",
+"garlic",
+"gyros",
+"kebab",
+"pizza"
+],
+"avoid": [],
+"sample": [
+6,
+0.7
+]
+},
+{
+"key": "white-bread",
+"name": "White bread",
+"search": "medium white bread",
+"unit": "g",
+"each": null,
+"show": [
+40,
+"slice",
+"slices"
+],
+"aisle": "Bakery",
+"inc": [
+"bread"
+],
+"any": [
+"white",
+"loaf"
+],
+"exc": [
+"rolls",
+"naan",
+"garlic",
+"pitta",
+"flat",
+"sauce",
+"crumb",
+"mix",
+"maker",
+"bin",
+"knife",
+"pudding",
+"gluten free",
+"sourdough",
+"brioche",
+"tiger",
+"bloomer",
+"farmhouse",
+"baguette",
+"ciabatta",
+"focaccia",
+"soda",
+"seeded",
+"malted",
+"brown",
+"wholemeal",
+"half and half",
+"flour",
+"fruit",
+"cheese",
+"toastie",
+"sandwich",
+"bags",
+"crust",
+"crouton",
+"sticks",
+"panini",
+"pizza",
+"bao",
+"baps",
+"teacake",
+"bagel",
+"naan"
+],
+"avoid": [],
+"sample": [
+800,
+0.8
+]
+},
+{
+"key": "peas",
+"name": "Frozen peas",
+"search": "frozen garden peas",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Frozen",
+"inc": [
+"pea"
+],
+"exc": [
+"chick",
+"split",
+"peanut",
+"snap",
+"mange",
+"sugar",
+"mushy",
+"soup",
+"protein",
+"pearl",
+"wasabi",
+"crisps",
+"pease",
+"pod",
+"shoots",
+"carrot",
+"sweetcorn",
+"mixed",
+"rice",
+"risotto",
+"pasta",
+"dried",
+"marrowfat",
+"black eyed",
+"pigeon",
+"green split",
+"pea and mint",
+"dip",
+"houmous",
+"hummus",
+"frozen veg",
+"petits pois mixed",
+"tin",
+"can",
+"bean"
+],
+"avoid": [],
+"sample": [
+900,
+1.2
+]
+},
+{
+"key": "oven-chips",
+"name": "Oven chips",
+"search": "oven chips",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Frozen",
+"inc": [
+"chip"
+],
+"exc": [
+"chocolate",
+"crisps",
+"choc",
+"fish",
+"cookie",
+"sauce",
+"seasoning",
+"cutter",
+"pan",
+"fryer",
+"tortilla",
+"sweet potato",
+"cassava",
+"dip",
+"plantain",
+"banana",
+"pita",
+"pitta",
+"bagel",
+"kale",
+"apple",
+"coconut",
+"naan",
+"poker",
+"casino",
+"card",
+"micro",
+"microchips",
+"shop",
+"salt",
+"vinegar crisps",
+"chocolate chip",
+"pasta",
+"dog",
+"cat",
+"wood",
+"bark",
+"garden",
+"hash"
+],
+"avoid": [],
+"sample": [
+1500,
+1.79
+]
+},
+{
+"key": "spaghetti",
+"name": "Spaghetti",
+"search": "spaghetti",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"spaghetti"
+],
+"exc": [
+"hoops",
+"tin",
+"bolognese",
+"carbonara",
+"sauce",
+"squash",
+"baked bean",
+"meatballs",
+"heinz",
+"rings",
+"pot",
+"ready",
+"meal",
+"courgette",
+"vegetable",
+"gluten free",
+"fresh",
+"verde",
+"nero",
+"alphabetti",
+"letters",
+"shapes",
+"frozen"
+],
+"avoid": [],
+"sample": [
+500,
+0.75
+]
+},
+{
+"key": "pasta",
+"name": "Penne pasta",
+"search": "penne pasta",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"penne"
+],
+"exc": [
+"bake",
+"sauce",
+"salad",
+"ready",
+"meal",
+"arrabbiata",
+"tomato and",
+"pot",
+"fresh",
+"frozen",
+"gluten free",
+"lentil",
+"chickpea",
+"pesto",
+"chicken",
+"bolognese",
+"vegetable"
+],
+"avoid": [],
+"sample": [
+500,
+0.75
+]
+},
+{
+"key": "macaroni",
+"name": "Macaroni",
+"search": "macaroni pasta",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"macaroni"
+],
+"exc": [
+"cheese",
+"pudding",
+"ready",
+"tin",
+"pot",
+"meal",
+"frozen",
+"bake",
+"sauce",
+"gluten free",
+"snack",
+"cauliflower"
+],
+"avoid": [],
+"sample": [
+500,
+0.85
+]
+},
+{
+"key": "rice",
+"name": "Long grain rice",
+"search": "long grain rice",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"rice"
+],
+"exc": [
+"pudding",
+"microwave",
+"pouch",
+"cake",
+"cracker",
+"noodle",
+"milk",
+"vinegar",
+"wine",
+"paper",
+"flour",
+"bran",
+"spicy",
+"pilau",
+"egg fried",
+"mexican",
+"golden",
+"coconut",
+"cooker",
+"ready",
+"steam",
+"boil in the bag",
+"boil in bag",
+"basmati and wild",
+"risotto",
+"arborio",
+"brown",
+"wholegrain",
+"jasmine",
+"sushi",
+"pot",
+"snack",
+"krispies",
+"crispies",
+"puffed",
+"cereal",
+"chicken",
+"sauce",
+"bowl",
+"cauliflower",
+"special",
+"mushroom",
+"vegetable",
+"lemon",
+"garlic",
+"tomato",
+"quinoa",
+"lentil",
+"sticky",
+"rice and",
+"wild"
+],
+"avoid": [],
+"sample": [
+1000,
+0.79
+]
+},
+{
+"key": "egg-noodles",
+"name": "Egg noodles",
+"search": "medium egg noodles",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"noodle"
+],
+"any": [
+"egg"
+],
+"exc": [
+"pot",
+"instant",
+"ready",
+"pouch",
+"cup",
+"soup",
+"chicken",
+"beef",
+"sauce",
+"prawn",
+"fried rice",
+"straight to wok",
+"fresh",
+"chow mein",
+"snack",
+"pork",
+"singapore",
+"pad thai",
+"kit",
+"vegetable",
+"curry",
+"teriyaki",
+"satay",
+"sweet chilli",
+"flavour",
+"ramen",
+"box"
+],
+"avoid": [],
+"sample": [
+300,
+0.89
+]
+},
+{
+"key": "lasagne-sheets",
+"name": "Lasagne sheets",
+"search": "lasagne sheets",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"lasagne"
+],
+"exc": [
+"ready",
+"meal",
+"beef",
+"vegetable",
+"frozen",
+"sauce",
+"dish",
+"tray",
+"vegetarian",
+"plant",
+"vegan",
+"gluten free",
+"fresh",
+"soup",
+"pot",
+"kit"
+],
+"avoid": [],
+"sample": [
+500,
+0.99
+]
+},
+{
+"key": "gnocchi",
+"name": "Gnocchi",
+"search": "potato gnocchi",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"gnocchi"
+],
+"exc": [
+"bake",
+"sauce",
+"ready",
+"meal",
+"frozen",
+"stuffed",
+"filled",
+"sweet potato",
+"cauliflower",
+"pumpkin",
+"spinach",
+"pesto",
+"tomato",
+"cheese",
+"gluten free",
+"bowl",
+"pot",
+"fried"
+],
+"avoid": [],
+"sample": [
+500,
+1.25
+]
+},
+{
+"key": "breadcrumbs",
+"name": "Breadcrumbs",
+"search": "golden breadcrumbs",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"breadcrumb"
+],
+"exc": [
+"chicken",
+"fish",
+"cod",
+"haddock",
+"coated",
+"ham",
+"scampi",
+"plaice",
+"goujon",
+"mushroom",
+"halloumi",
+"nugget",
+"pork",
+"turkey",
+"prawn",
+"sausage",
+"garlic and herb",
+"gluten free"
+],
+"avoid": [],
+"sample": [
+227,
+0.89
+]
+},
+{
+"key": "plain-flour",
+"name": "Plain flour",
+"search": "plain flour",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"flour"
+],
+"any": [
+"plain"
+],
+"exc": [
+"self",
+"bread",
+"cornflour",
+"rice flour",
+"tortilla",
+"wrap",
+"gluten free",
+"wholemeal",
+"strong",
+"spelt",
+"chickpea",
+"gram",
+"coconut",
+"almond",
+"oat",
+"buckwheat",
+"rye",
+"pizza",
+"pasta",
+"cake",
+"cookie",
+"sauce",
+"crackers",
+"chocolate"
+],
+"avoid": [],
+"sample": [
+1500,
+0.75
+]
+},
+{
+"key": "red-lentils",
+"name": "Red lentils",
+"search": "red split lentils",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Pasta, rice & grains",
+"inc": [
+"lentil"
+],
+"any": [
+"red"
+],
+"exc": [
+"soup",
+"tin",
+"pouch",
+"crisps",
+"chips",
+"pasta",
+"dahl",
+"dhal",
+"dal ",
+"curry",
+"puff",
+"snack",
+"cakes",
+"cake",
+"bites",
+"bolognese",
+"green",
+"puy",
+"brown",
+"black",
+"beluga",
+"ready",
+"microwave",
+"pot",
+"chilli",
+"houmous",
+"hummus",
+"dip",
+"flour",
+"flatbread",
+"burger",
+"sausage",
+"snacks"
+],
+"avoid": [],
+"sample": [
+500,
+1.15
+]
+},
+{
+"key": "chopped-tomatoes",
+"name": "Chopped tomatoes",
+"search": "chopped tomatoes",
+"unit": "g",
+"each": 400,
+"show": [
+400,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"chopped",
+"tomato"
+],
+"exc": [
+"soup",
+"sauce",
+"pasta",
+"sun",
+"dried",
+"chilli",
+"garlic",
+"herbs",
+"onion",
+"basil",
+"olive",
+"peppers",
+"mushroom",
+"pouch",
+"fresh",
+"carton",
+"paste",
+"puree",
+"passata",
+"salsa",
+"ketchup",
+"beans",
+"bake",
+"lentil",
+"organic",
+"cherry",
+"plum",
+"whole",
+"juice",
+"seed"
+],
+"avoid": [],
+"sample": [
+400,
+0.45
+]
+},
+{
+"key": "passata",
+"name": "Passata",
+"search": "passata",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Tins & jars",
+"inc": [
+"passata"
+],
+"exc": [
+"soup",
+"pizza",
+"garlic",
+"herb",
+"basil",
+"onion",
+"chilli",
+"olive",
+"organic",
+"rustica",
+"cherry",
+"sauce",
+"smooth",
+"pouch"
+],
+"avoid": [],
+"sample": [
+500,
+0.55
+]
+},
+{
+"key": "kidney-beans",
+"name": "Red kidney beans",
+"search": "red kidney beans",
+"unit": "g",
+"each": 400,
+"show": [
+400,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"kidney"
+],
+"exc": [
+"chilli sauce",
+"soup",
+"mixed",
+"salad",
+"chilli",
+"dried",
+"pouch",
+"curry",
+"organic",
+"rajma",
+"jar",
+"pie"
+],
+"avoid": [],
+"sample": [
+400,
+0.45
+]
+},
+{
+"key": "chickpeas",
+"name": "Chickpeas",
+"search": "chickpeas in water",
+"unit": "g",
+"each": 400,
+"show": [
+400,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"chickpea"
+],
+"exc": [
+"houmous",
+"hummus",
+"crisps",
+"snack",
+"puffs",
+"curry",
+"flour",
+"pasta",
+"dhal",
+"roasted",
+"chips",
+"falafel",
+"salad",
+"dried",
+"pouch",
+"jar",
+"organic",
+"spiced",
+"bites",
+"bake",
+"sweet",
+"soup",
+"burger",
+"bean",
+"chana",
+"masala",
+"ready"
+],
+"avoid": [],
+"sample": [
+400,
+0.55
+]
+},
+{
+"key": "baked-beans",
+"name": "Baked beans",
+"search": "baked beans",
+"unit": "g",
+"each": 415,
+"show": [
+415,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"baked",
+"bean"
+],
+"exc": [
+"sausage",
+"pot",
+"mini",
+"snap",
+"burger",
+"hot dog",
+"pizza",
+"pasta",
+"pie",
+"jacket",
+"potato",
+"cheese",
+"toast",
+"crisps",
+"hash",
+"curry",
+"bbq",
+"barbecue",
+"chilli",
+"fiery",
+"organic",
+"gluten free",
+"salt free",
+"no added",
+"reduced",
+"pastry",
+"bake",
+"pouch",
+"pots",
+"cup",
+"microwave"
+],
+"avoid": [],
+"sample": [
+415,
+0.65
+]
+},
+{
+"key": "sweetcorn",
+"name": "Sweetcorn",
+"search": "sweetcorn in water",
+"unit": "g",
+"each": 326,
+"show": [
+326,
+"tin",
+"tins"
+],
+"aisle": "Tins & jars",
+"inc": [
+"sweetcorn"
+],
+"exc": [
+"relish",
+"fritter",
+"tuna",
+"popcorn",
+"cream",
+"creamed",
+"baby",
+"cob",
+"crisps",
+"soup",
+"chowder",
+"frozen",
+"pea",
+"carrot",
+"mixed",
+"pepper",
+"salsa",
+"rice",
+"seeds",
+"sauce",
+"vacuum",
+"fresh",
+"dip",
+"chicken",
+"pizza",
+"bake",
+"pasta",
+"beans",
+"organic",
+"chips",
+"nuggets"
+],
+"avoid": [],
+"sample": [
+326,
+0.65
+]
+},
+{
+"key": "coconut-milk",
+"name": "Coconut milk",
+"search": "coconut milk tin",
+"unit": "ml",
+"each": null,
+"show": null,
+"aisle": "Tins & jars",
+"inc": [
+"coconut",
+"milk"
+],
+"exc": [
+"drink",
+"alternative",
+"yogurt",
+"yoghurt",
+"powder",
+"barista",
+"chocolate",
+"ice",
+"rice",
+"oat",
+"vita coco",
+"water",
+"long life",
+"uht",
+"dairy free",
+"chilled",
+"fresh",
+"shake",
+"bar",
+"biscuit",
+"curry",
+"sauce",
+"flakes",
+"desiccated",
+"oil",
+"cream of coconut",
+"light"
+],
+"avoid": [],
+"sample": [
+400,
+1.15
+]
+},
+{
+"key": "tomato-puree",
+"name": "Tomato purée",
+"search": "tomato puree",
+"unit": "g",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Tins & jars",
+"inc": [
+"tomato"
+],
+"any": [
+"puree",
+"purée"
+],
+"exc": [
+"sun",
+"garlic",
+"chilli",
+"herb",
+"basil",
+"onion",
+"organic",
+"sauce",
+"soup",
+"pouch",
+"pasta",
+"ketchup",
+"juice",
+"dried",
+"paste concentrate"
+],
+"avoid": [],
+"sample": [
+200,
+0.65
+]
+},
+{
+"key": "beef-stock",
+"name": "Beef stock cubes",
+"search": "beef stock cubes",
+"unit": "each",
+"each": 9,
+"show": [
+1,
+"beef stock cube",
+"beef stock cubes"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"beef",
+"stock"
+],
+"exc": [
+"gravy",
+"granules",
+"soup",
+"noodle",
+"crisps",
+"liquid",
+"concentrate",
+"fresh",
+"pot",
+"jelly",
+"bone broth",
+"broth",
+"ready",
+"sauce",
+"low salt",
+"reduced salt",
+"organic",
+"bouillon"
+],
+"avoid": [
+"meat",
+"beef"
+],
+"sample": [
+10,
+0.55
+]
+},
+{
+"key": "chicken-stock",
+"name": "Chicken stock cubes",
+"search": "chicken stock cubes",
+"unit": "each",
+"each": 9,
+"show": [
+1,
+"chicken stock cube",
+"chicken stock cubes"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"chicken",
+"stock"
+],
+"exc": [
+"gravy",
+"granules",
+"soup",
+"noodle",
+"crisps",
+"liquid",
+"concentrate",
+"fresh",
+"pot",
+"jelly",
+"bone broth",
+"broth",
+"ready",
+"sauce",
+"low salt",
+"reduced salt",
+"organic",
+"bouillon",
+"dog",
+"cat",
+"pet"
+],
+"avoid": [
+"meat",
+"chicken"
+],
+"sample": [
+10,
+0.55
+]
+},
+{
+"key": "veg-stock",
+"name": "Vegetable stock cubes",
+"search": "vegetable stock cubes",
+"unit": "each",
+"each": 9,
+"show": [
+1,
+"vegetable stock cube",
+"vegetable stock cubes"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"vegetable",
+"stock"
+],
+"exc": [
+"gravy",
+"granules",
+"soup",
+"noodle",
+"crisps",
+"liquid",
+"concentrate",
+"fresh",
+"pot",
+"jelly",
+"broth",
+"ready",
+"sauce",
+"low salt",
+"reduced salt",
+"organic",
+"bouillon",
+"powder"
+],
+"avoid": [],
+"sample": [
+10,
+0.55
+]
+},
+{
+"key": "gravy-granules",
+"name": "Gravy granules",
+"search": "gravy granules",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Sauces & seasoning",
+"inc": [
+"gravy"
+],
+"exc": [
+"boat",
+"jug",
+"pot",
+"fresh",
+"pouch",
+"ready",
+"yorkshire",
+"mash",
+"pie",
+"sausage",
+"pudding",
+"liquid",
+"jar",
+"chips",
+"crisps",
+"dog",
+"cat",
+"pet",
+"meatballs",
+"beef in",
+"chicken in",
+"bag",
+"sachet",
+"stock",
+"onion gravy and",
+"free from"
+],
+"avoid": [],
+"sample": [
+200,
+0.95
+]
+},
+{
+"key": "curry-paste",
+"name": "Tikka masala paste",
+"search": "tikka masala curry paste",
+"unit": "g",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"tikka"
+],
+"any": [
+"paste"
+],
+"exc": [
+"chicken",
+"crisps",
+"pot",
+"pouch",
+"ready",
+"naan",
+"wrap",
+"sandwich",
+"rice",
+"noodles",
+"meal",
+"frozen",
+"kit"
+],
+"avoid": [],
+"sample": [
+190,
+1.35
+]
+},
+{
+"key": "thai-curry-paste",
+"name": "Thai red curry paste",
+"search": "thai red curry paste",
+"unit": "g",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"red curry"
+],
+"any": [
+"paste"
+],
+"exc": [
+"chicken",
+"crisps",
+"pot",
+"pouch",
+"ready",
+"kit",
+"meal",
+"frozen",
+"green",
+"yellow",
+"massaman",
+"panang"
+],
+"avoid": [],
+"sample": [
+114,
+1.1
+]
+},
+{
+"key": "soy-sauce",
+"name": "Soy sauce",
+"search": "light soy sauce",
+"unit": "ml",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"soy"
+],
+"exc": [
+"milk",
+"beans",
+"yogurt",
+"yoghurt",
+"dessert",
+"alternative",
+"drink",
+"noodle",
+"chicken",
+"cracker",
+"rice",
+"sachets",
+"sachet",
+"sweet soy",
+"kecap",
+"mince",
+"chunks",
+"protein",
+"flour",
+"lecithin",
+"sausage",
+"plant"
+],
+"avoid": [],
+"sample": [
+150,
+0.85
+]
+},
+{
+"key": "sweet-chilli",
+"name": "Sweet chilli sauce",
+"search": "sweet chilli sauce",
+"unit": "ml",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"sweet chilli"
+],
+"exc": [
+"crisps",
+"chicken",
+"noodles",
+"cracker",
+"rice",
+"sensations",
+"thins",
+"nut",
+"prawn",
+"salmon",
+"halloumi",
+"wraps",
+"pork",
+"beef",
+"dip pot",
+"pots",
+"kettle",
+"doritos",
+"pringles",
+"pretzel",
+"popcorn",
+"chips",
+"pasta",
+"stir fry kit"
+],
+"avoid": [],
+"sample": [
+310,
+1.0
+]
+},
+{
+"key": "honey",
+"name": "Clear honey",
+"search": "clear honey",
+"unit": "g",
+"each": null,
+"show": [
+20,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"honey"
+],
+"exc": [
+"nut",
+"cereal",
+"loops",
+"yogurt",
+"yoghurt",
+"roast",
+"glazed",
+"mustard",
+"ham",
+"chicken",
+"cheerios",
+"shreddies",
+"granola",
+"bar",
+"cough",
+"lemon",
+"sweets",
+"dressing",
+"sauce",
+"bbq",
+"biscuit",
+"sesame",
+"bear",
+"crunch",
+"pops",
+"flakes",
+"oats",
+"porridge",
+"tea",
+"mead",
+"beer",
+"cake",
+"bun",
+"bread",
+"comb",
+"manuka",
+"set honey",
+"creamed",
+"cashews",
+"peanuts",
+"almonds",
+"pork",
+"sausages",
+"salmon",
+"carrots",
+"parsnips",
+"ginger",
+"hand",
+"soap",
+"shampoo",
+"balm",
+"lip"
+],
+"avoid": [],
+"sample": [
+340,
+1.25
+]
+},
+{
+"key": "pesto",
+"name": "Green pesto",
+"search": "green pesto",
+"unit": "g",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"pesto"
+],
+"exc": [
+"red",
+"pasta",
+"bread",
+"chicken",
+"crisps",
+"rosso",
+"sun",
+"stuffed",
+"dip",
+"salmon",
+"gnocchi",
+"tortellini",
+"ravioli",
+"salad",
+"chilli",
+"vegan",
+"free from",
+"fresh",
+"pizza",
+"twists",
+"wrap",
+"sandwich",
+"fusilli",
+"penne",
+"spaghetti",
+"linguine",
+"ciabatta",
+"focaccia",
+"breadsticks"
+],
+"avoid": [
+"dairy"
+],
+"sample": [
+190,
+1.1
+]
+},
+{
+"key": "bbq-sauce",
+"name": "BBQ sauce",
+"search": "bbq sauce",
+"unit": "ml",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"any": [
+"bbq",
+"barbecue"
+],
+"inc": [
+"sauce"
+],
+"exc": [
+"chicken",
+"pork",
+"ribs",
+"crisps",
+"wing",
+"pizza",
+"pulled",
+"beans",
+"steak",
+"burger",
+"seasoning",
+"rub",
+"sausage",
+"mix",
+"nut",
+"meatballs",
+"pasta",
+"sachet",
+"dip pot",
+"pots",
+"jackfruit",
+"plant",
+"vegan",
+"fries",
+"chips",
+"popcorn",
+"pretzel",
+"flavour"
+],
+"avoid": [],
+"sample": [
+480,
+1.25
+]
+},
+{
+"key": "mayonnaise",
+"name": "Mayonnaise",
+"search": "mayonnaise",
+"unit": "ml",
+"each": null,
+"show": [
+15,
+"tbsp",
+"tbsp"
+],
+"aisle": "Sauces & seasoning",
+"inc": [
+"mayo"
+],
+"exc": [
+"garlic",
+"sriracha",
+"chipotle",
+"sandwich",
+"coleslaw",
+"egg mayo",
+"tuna",
+"chicken",
+"prawn",
+"dip",
+"burger",
+"potato",
+"salad",
+"sachet",
+"sachets",
+"pots",
+"chilli",
+"lemon",
+"mustard",
+"truffle",
+"japanese",
+"kewpie",
+"vegan",
+"plant",
+"free from",
+"egg free",
+"wasabi",
+"pesto",
+"peri",
+"harissa",
+"bacon",
+"cheese",
+"sauce mix"
+],
+"avoid": [],
+"sample": [
+400,
+1.05
+]
+},
+{
+"key": "fajita-seasoning",
+"name": "Fajita seasoning",
+"search": "fajita seasoning mix",
+"unit": "g",
+"each": null,
+"show": null,
+"aisle": "Herbs & spices",
+"inc": [
+"fajita"
+],
+"any": [
+"seasoning",
+"spice mix",
+"mix"
+],
+"exc": [
+"kit",
+"chicken",
+"wraps",
+"sauce",
+"dinner",
+"box",
+"meal",
+"frozen",
+"stir fry",
+"vegetable",
+"strips",
+"crisps",
+"ready"
+],
+"avoid": [],
+"sample": [
+30,
+0.85
+]
+},
+{
+"key": "mixed-herbs",
+"name": "Dried mixed herbs",
+"search": "dried mixed herbs",
+"unit": "g",
+"each": null,
+"show": [
+1,
+"tsp",
+"tsp"
+],
+"aisle": "Herbs & spices",
+"inc": [
+"mixed herbs"
+],
+"exc": [
+"fresh",
+"stuffing",
+"bread",
+"crouton",
+"sausage",
+"chicken",
+"tomato",
+"olive",
+"oil",
+"butter",
+"grow",
+"seeds",
+"plant",
+"pot",
+"cheese",
+"crackers",
+"salt",
+"grinder",
+"garlic"
+],
+"avoid": [],
+"sample": [
+14,
+0.85
+]
+},
+{
+"key": "paprika",
+"name": "Smoked paprika",
+"search": "smoked paprika",
+"unit": "g",
+"each": null,
+"show": [
+2,
+"tsp",
+"tsp"
+],
+"aisle": "Herbs & spices",
+"inc": [
+"paprika"
+],
+"exc": [
+"crisps",
+"chicken",
+"pringles",
+"nut",
+"sausage",
+"snack",
+"chorizo",
+"rice",
+"pork",
+"houmous",
+"hummus",
+"popcorn",
+"almonds",
+"cashews",
+"peanuts",
+"salmon",
+"prawn",
+"cheese",
+"crackers",
+"pepper",
+"seasoning mix",
+"rub",
+"kettle",
+"tortilla",
+"chips",
+"dip",
+"beans",
+"mayo",
+"sauce",
+"grinder"
+],
+"avoid": [],
+"sample": [
+43,
+1.0
+]
+},
+{
+"key": "chilli-powder",
+"name": "Mild chilli powder",
+"search": "mild chilli powder",
+"unit": "g",
+"each": null,
+"show": [
+2,
+"tsp",
+"tsp"
+],
+"aisle": "Herbs & spices",
+"inc": [
+"chilli powder"
+],
+"exc": [
+"hot",
+"extra hot",
+"kashmiri",
+"chipotle",
+"crushed",
+"flakes",
+"sauce",
+"seeds"
+],
+"avoid": [],
+"sample": [
+45,
+0.85
+]
+},
+{
+"key": "cumin",
+"name": "Ground cumin",
+"search": "ground cumin",
+"unit": "g",
+"each": null,
+"show": [
+2,
+"tsp",
+"tsp"
+],
+"aisle": "Herbs & spices",
+"inc": [
+"cumin"
+],
+"exc": [
+"seeds",
+"whole",
+"crisps",
+"snack",
+"houmous",
+"hummus",
+"rice",
+"cheese",
+"gouda",
+"nuts",
+"lamb",
+"chicken",
+"mix",
+"seasoning"
+],
+"avoid": [],
+"sample": [
+44,
+0.85
+]
+},
+{
+"key": "curry-powder",
+"name": "Mild curry powder",
+"search": "mild curry powder",
+"unit": "g",
+"each": null,
+"show": [
+2,
+"tsp",
+"tsp"
+],
+"aisle": "Herbs & spices",
+"inc": [
+"curry powder"
+],
+"exc": [
+"hot",
+"extra hot",
+"madras",
+"vindaloo",
+"sauce",
+"paste",
+"japanese",
+"katsu",
+"jamaican",
+"sachet"
+],
+"avoid": [],
+"sample": [
+90,
+0.95
+]
+}
+]
+}

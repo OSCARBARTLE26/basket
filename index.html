@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Basket</title>
+  <meta name="description" content="Plan a week of family dinners and a shopping list that fits your budget at Tesco, Asda, Aldi, Morrisons or Waitrose.">
+  <meta name="theme-color" content="#e6f2dc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Basket">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app" aria-live="polite"></main>
+
+  <div id="backdrop" class="sheet-backdrop" hidden></div>
+  <div id="sheet" class="sheet" role="dialog" aria-modal="true" aria-label="Details" hidden></div>
+  <div id="toast" class="toast" role="status"></div>
+
+  <nav class="nav" aria-label="Main">
+    <div class="nav-inner">
+      <button data-tab="plan" aria-current="page">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3.5 10h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        Week
+      </button>
+      <button data-tab="list">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h16l-1.6 9.2A2 2 0 0 1 16.4 20H7.6a2 2 0 0 1-2-1.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 9c0-2.8 1.8-5 4-5s4 2.2 4 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span id="list-badge" class="badge" hidden></span></span>
+        List
+      </button>
+      <button data-tab="saved">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+        Saved
+      </button>
+      <button data-tab="settings">
+        <span class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+        Settings
+      </button>
+    </div>
+  </nav>
+
+  <noscript><p style="padding:24px">Basket needs JavaScript turned on.</p></noscript>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
